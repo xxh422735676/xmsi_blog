@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test-abbr</title>
+    <url>/posts/8626d061/</url>
+    <content><![CDATA[<p>test abbr</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo setups</title>
     <url>/posts/b763a0b1/</url>
     <content><![CDATA[<h3 id="centos-关闭selinux"><a class="markdownIt-Anchor" href="#centos-关闭selinux"></a> centos 关闭SELINUX</h3>
@@ -95,12 +101,6 @@
         <tag>test</tag>
         <tag>test1</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test-abbr</title>
-    <url>/posts/8626d061/</url>
-    <content><![CDATA[<p>test abbr</p>
-]]></content>
   </entry>
   <entry>
     <title>yaml语法示例</title>
