@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/2022/01/30/hello-world/</url>
+    <url>/undefined/16107/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
 <h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
@@ -27,8 +27,24 @@
       </tags>
   </entry>
   <entry>
+    <title>yaml语法示例</title>
+    <url>/MoonXu/60141/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="75cc7945f0190a6df86e1545aec5bf0f9336b15c28b38d82970ed72009aeb283">16c747dc6985ee4fafa2dd616ad7bafaab8a56bd6dcf72a9a0497175f435dd9a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>hexo setups</title>
-    <url>/2022/02/04/hexo-setups/</url>
+    <url>/MoonXu/65109/</url>
     <content><![CDATA[<h3 id="centos-关闭selinux"><a class="markdownIt-Anchor" href="#centos-关闭selinux"></a> centos 关闭SELINUX</h3>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$ </span><span class="language-bash">setenforce 0</span></span><br><span class="line"><span class="meta">$ </span><span class="language-bash">sed -i <span class="string">&#x27;s/SELINUX=enforcing/SELINUX=disabled/&#x27;</span> /etc/selinux/config</span></span><br></pre></td></tr></table></figure>
 <h3 id="创建tags-caterories"><a class="markdownIt-Anchor" href="#创建tags-caterories"></a> 创建tags、caterories</h3>
@@ -63,7 +79,7 @@
   </entry>
   <entry>
     <title>test_code</title>
-    <url>/2022/01/30/test-code/</url>
+    <url>/undefined/55689/</url>
     <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
 <h3 id="dqwdwq"><a class="markdownIt-Anchor" href="#dqwdwq"></a> dqwdwq</h3>
 <p><mark>dwqd</mark><br />
@@ -86,13 +102,90 @@
       </tags>
   </entry>
   <entry>
-    <title>yaml语法示例</title>
-    <url>/2022/02/08/yaml%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</url>
-    <content><![CDATA[]]></content>
+    <title>cpp博客汇总</title>
+    <url>/MoonXu/61428/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2ad428ac34b9d30537e31d1e6ea1063a6cb32c94d1652167623c37725a469867">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad263861a013083448150d2196193e2ba07b</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp资源</category>
+      </categories>
+      <tags>
+        <tag>cpp资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>密码testpassword</title>
+    <url>/MoonXu/115605/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>test</category>
+        <category>test1</category>
+        <category>test2</category>
+        <category>test3</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>test1</tag>
+      </tags>
   </entry>
   <entry>
     <title>test2</title>
-    <url>/2022/02/08/cpp-cpp%E8%AF%AD%E6%B3%95-test2/</url>
+    <url>/MoonXu/74213/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>test1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>decltype关键字</title>
+    <url>/MoonXu/72055/</url>
+    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
+<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
+<p>解决难以拼写的类型名，有以下两个方案：</p>
+<ol>
+<li>使用类型别名技术</li>
+<li>使用auto和decltype</li>
+</ol>
+<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
+<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
+<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
+<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
+<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
+]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp语法</category>
+      </categories>
+      <tags>
+        <tag>cpp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test1</title>
+    <url>/MoonXu/74054/</url>
     <content><![CDATA[]]></content>
       <tags>
         <tag>test1</tag>
@@ -100,7 +193,7 @@
   </entry>
   <entry>
     <title>unordered_map set自定义对象的hash</title>
-    <url>/2022/02/08/cpp-cpp%E8%AF%AD%E6%B3%95-%E3%80%90C-%E8%AF%AD%E6%B3%95%E8%BF%9B%E9%98%B6%E3%80%91unordered-set-map%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E7%B1%BB%E5%9E%8B/</url>
+    <url>/MoonXu/220210121047/</url>
     <content><![CDATA[<p><code>unordered_map/set</code>使用hash进行存储，因此存储自定义对象前，必须：</p>
 <ol>
 <li><code>hash</code>告知此容器如何生成hash值，</li>
@@ -133,52 +226,6 @@
       </categories>
       <tags>
         <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>decltype关键字</title>
-    <url>/2022/02/08/cpp-cpp%E8%AF%AD%E6%B3%95-%E3%80%90C-%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E3%80%91decltype%E5%85%B3%E9%94%AE%E5%AD%97/</url>
-    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
-<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
-<p>解决难以拼写的类型名，有以下两个方案：</p>
-<ol>
-<li>使用类型别名技术</li>
-<li>使用auto和decltype</li>
-</ol>
-<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
-<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
-<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
-<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
-<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp博客汇总</title>
-    <url>/2022/02/08/cpp-cpp%E8%B5%84%E6%BA%90-cpp%E5%8D%9A%E5%AE%A2%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[<p>C++深陷https://blog.csdn.net/u014609638/category_9516609.html</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp资源</category>
-      </categories>
-      <tags>
-        <tag>cpp资源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test1</title>
-    <url>/2022/02/08/cpp-cpp%E8%AF%AD%E6%B3%95-test1/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>test1</tag>
       </tags>
   </entry>
 </search>
