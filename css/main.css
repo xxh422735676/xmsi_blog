@@ -190,7 +190,7 @@ body {
   min-height: 100%;
   position: relative;
   transition: padding 0.2s ease-in-out;
-  overflow-x: hidden;
+  overflow-x: scroll;
   width: 100vw;
 }
 @supports (overflow-x: clip) {
@@ -2959,7 +2959,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #fff;
+  background: #fb03ff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
