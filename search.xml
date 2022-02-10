@@ -67,12 +67,6 @@
       </tags>
   </entry>
   <entry>
-    <title>test-abbr</title>
-    <url>/posts/8626d061/</url>
-    <content><![CDATA[<p>test abbr</p>
-]]></content>
-  </entry>
-  <entry>
     <title>密码testpassword</title>
     <url>/posts/d5cdaa49/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
@@ -99,6 +93,12 @@
       </tags>
   </entry>
   <entry>
+    <title>test-abbr</title>
+    <url>/posts/8626d061/</url>
+    <content><![CDATA[<p>test abbr</p>
+]]></content>
+  </entry>
+  <entry>
     <title>yaml语法示例</title>
     <url>/posts/34fc2379/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
@@ -113,6 +113,31 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>decltype关键字</title>
+    <url>/posts/6d46b940/</url>
+    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
+<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
+<p>解决难以拼写的类型名，有以下两个方案：</p>
+<ol>
+<li>使用类型别名技术</li>
+<li>使用auto和decltype</li>
+</ol>
+<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
+<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
+<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
+<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
+<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
+]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp语法</category>
+      </categories>
+      <tags>
+        <tag>cpp语法</tag>
+      </tags>
   </entry>
   <entry>
     <title>unordered_map set自定义对象的hash</title>
@@ -142,31 +167,6 @@
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//注意namespace ，必要时可以指定namespace std&#123;&#125;</span></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">hash</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">equal_to</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object&gt; objects;</span><br></pre></td></tr></table></figure>
 <h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
 <p><a href="https://blog.csdn.net/lpstudy/article/details/54345050">https://blog.csdn.net/lpstudy/article/details/54345050</a></p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>decltype关键字</title>
-    <url>/posts/6d46b940/</url>
-    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
-<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
-<p>解决难以拼写的类型名，有以下两个方案：</p>
-<ol>
-<li>使用类型别名技术</li>
-<li>使用auto和decltype</li>
-</ol>
-<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
-<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
-<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
-<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
-<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
 ]]></content>
       <categories>
         <category>cpp</category>
