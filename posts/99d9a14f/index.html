@@ -30,10 +30,10 @@
 <meta property="og:site_name" content="在赛博的空">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-11T07:30:35.000Z">
-<meta property="article:modified_time" content="2022-02-11T07:49:10.415Z">
+<meta property="article:modified_time" content="2022-02-11T07:51:36.016Z">
 <meta property="article:author" content="MoonXu">
 <meta property="article:tag" content="基础算法">
-<meta property="article:tag" content="encrypt_alg">
+<meta property="article:tag" content="encryptalg">
 <meta name="twitter:card" content="summary">
 
 
@@ -140,7 +140,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -153,7 +153,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E8%A7%84%E4%BA%8C%E5%88%86%E5%86%99%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text"> 常规二分写法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E6%89%BEtarget%E7%9A%84%E5%8F%B3%E8%BE%B9%E7%95%8C"><span class="nav-number">2.</span> <span class="nav-text"> 查找&lt;&#x3D;target的右边界</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC%E7%9A%84%E6%9F%A5%E6%89%BE%E5%8F%B3%E4%BE%A7%E8%BE%B9%E7%95%8C%E4%BB%A3%E7%A0%81"><span class="nav-number">2.1.</span> <span class="nav-text"> 一个其他版本的查找右侧边界代码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E6%89%BEtarget%E7%9A%84%E5%B7%A6%E8%BE%B9%E7%95%8C"><span class="nav-number">3.</span> <span class="nav-text"> 查找&gt;&#x3D;target的左边界</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -274,7 +273,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-02-11 15:30:35 / 修改时间：15:49:10" itemprop="dateCreated datePublished" datetime="2022-02-11T15:30:35+08:00">2022-02-11</time>
+      <time title="创建时间：2022-02-11 15:30:35 / 修改时间：15:51:36" itemprop="dateCreated datePublished" datetime="2022-02-11T15:30:35+08:00">2022-02-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -323,27 +322,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="常规二分写法"><a class="markdownIt-Anchor" href="#常规二分写法"></a> 常规二分写法</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;=r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+ (r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span>(mid = target) <span class="keyword">return</span> mid;</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;target)l = mid+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
-<p>每次搜索的区间是[l,r]，因此l和r均不包含mid</p>
-<h3 id="查找target的右边界"><a class="markdownIt-Anchor" href="#查找target的右边界"></a> 查找&lt;=target的右边界</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l + (r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;=target) l = mid;</span><br><span class="line">    <span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>收缩区间，查找右边界指在&lt;=target的区间中取最大的一个，即&gt;target的区间舍去，<code>r = mid-1</code>，每次搜索的区间是(left,right]</li>
-<li>因为<code>mid = l+(r-l&gt;&gt;1)</code>总是落在(l+r)/2的右侧，<code>l=mid</code>可以保证<code>l</code>始终在左区间的右边界上</li>
-<li>当终止条件<code>l==r</code>时，r右边的区域为&gt;target，l为&lt;=target的区域的右边界。</li>
-</ol>
-<h4 id="一个其他版本的查找右侧边界代码"><a class="markdownIt-Anchor" href="#一个其他版本的查找右侧边界代码"></a> 一个其他版本的查找右侧边界代码</h4>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+ (r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span>(mid&gt;target) r = mid;</span><br><span class="line">    <span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l<span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
-<p>其实就是查找==&gt;target的左边界<mark>版本，返回left-1即为</mark>&lt;=tareget的右边界==</p>
-<h3 id="查找target的左边界"><a class="markdownIt-Anchor" href="#查找target的左边界"></a> 查找&gt;=target的左边界</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+(r-l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(mid&gt;=target)r = mid;</span><br><span class="line">    <span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>收缩区间，查找左边界指在&gt;=target的区间中取最小的一个，即&lt;target的区间舍去，<code>l = mid+1</code>，每次搜索的区间是[left,right)</li>
-<li>因为mid = l+(r-l&gt;&gt;1)总是落在(l+r)/2的左侧，<code>r = mid</code>可以保证<code>r</code>始终落在右区间的左边界上</li>
-<li>当终止条件<code>l==r</code>时，l左侧的部分全部为&lt;target，r为&lt;=target的区域的右边界</li>
-</ol>
-
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="45a808c99836c72e67c0773f7d0e338325077d9139dccc676c30bba49cf337a6">a2bf450e84c290c9a7ab972c6582608d61f56360de546defe34916a023e9faa717a479dddd8ebc6b99b75ea530cfd76555a5da6c4cdf01810d0ee872bf432593295c23a60198a25b89f2c1a91e08cbe601120913b061c341237d323c668dfb31a7afb0ba26d14d01d5f777ea68c2bbf498ca4cb59edf6b9ebc68e34664fbc44cfe62a8b641db769b8acb814f373b0201412cd8b257769d6d015656b6e343c1f8537dc1e2b5fba4d1843b0e069bce5ff8fcc2c61d487e2f69d47cf1e485d376ed5760c289677867f356cc6f252d4b6b0a8fbde56800cbe3e2846d1888bfb83f499be49daf557140e98e5c72ce2ce530238fbac81e5b0359ebd067fea2462be1538558bb56d3ec5997956c03422f8deffc91b9a690f043bb36f6b81b983f6e68770e9d424d8b99b71c3d78f8b7a545034cb141cbfff1057534fd65c4148120cd162b0fb05c8b7794ef55f70ee64ab9ebcc500b6bc0b570052a5c192b40ab99f5eb9465912cb0e22887dbf96a9e23047c27dca30f8c3e0f520b12d0015e6af24682960fb23adef742e9933db9680b369619a1af0662ca22185674c460a150ac17837ce9b4723d5d3cc05f24310dde23bb0bddbfa6721866641ec93f3fc98e7d0652d1989f811927875049a8a415d07448544eb11ba3490ff55f38c47b108058e412ed13652fb182473966558264e6d083a340c985b22366fa72be6d616388faf0026f16db63589a56600734a3d57df418cd78a704b3db90253229ed7025cdf4acc8e1cc160459cde0349649b7f071f91671d88cde61a2ad7e87534e876eb4b1fab067b96fbdd80490cdef4286953a267a1ea7fbc1a85a6dd1b9d21b7650aaa0834db75e014cbee2e424523af307aff903061a5c753ab45f2cc6605c43ae2ec600736ec10ebaa998be882b329e9cd9595bbba48768f43ce7e4d9db8f0296c0b452ba61b588455de7ae9be3ed3ca416a1c9f9a108f78deeb9aa9d87bc81473b5e4593b241664afda71bb50a5f2863a32ec5d1564842feffdd7e1fb80bb9627f29bfcbe76caf564f6af4f54582ff6af74e1f15d050f521ffc754e50fe6e60b883dd512ede32c15fc0ba82a51d5a2bedd88c70ae17a8883ac743fbc0c1f2ee234320dc15c4091663469e50cb37cd7fd6bd288c983e0ab500cd78d22cbad83d6ce13b98e94f53d3fb32932916f214c7c97f238fdb412689e62c8e40dfcf71904d2cf7c836f7593d053c5e5ae4f91995a2bb974603cdaabfe3d499735ecd15f711eabd63685b426188aea1f4f790d2db50075a8e404dd278c407165317cf0e34281ee1a58a7022cbb66f07f852d805374a58d6891a67c315826bc0b3f5f00cd9f1241e3cdd6b8a4dd6a25fe214cc02ef097fb4b795a1b25e2569b9295e26ea30994f12ff86daf698c5a90b0c31a7c6e5fe2c97430b5e496a6ed7d96f9fb6c0a215488a509d17ea3d046ce864c36fd8230e1d3f3aee13f42af14a818338fe56e31881f0903bfadf04e24a56573aa65fc8614842cde1101244204e8cc9df7235194047c9a07d65369d7da408867795019d5633a281aa8b7abf1d691134d32a0b4bcc7a5dd4ca7fe787bd4eafdb38ff539329965a8a0a8787d22f4543b3756d339c6789a90d1f014f10db80dd17aa7c73b6c5055ad5d16e08764471a025d8c98691d78f34a234f75dc5b918ca867d03db28a56af132702aff979cff4d7bdd59af9c67e6a27aa81a0078f97f61bffc33548d010c2e3be75365b6d1c0eb435fe5f8e3ee7ef148966836730ae08c239d342bf13aa5198e5da561a86e92bee25f853f63258e787ccc8712ce31c5587d636b028086a2b53e30538039c021505d45c5dfdcc222064d80d71173fa5085ecf6cb13851c18e01a3d2a28a91a52ed6826a3d26d4da4a6d2bd53c95812b1ac50885bb9f49dc614402aa7b68dc590c8b7a781cb2c3f801b1452aa5955400f3880c2d8694b58c68b2a8e403ad580c0756939dfc7c8e0308be6533aa61ab6ffb956359fc9f051d05d5705f1263f1af2dafed77c60d27880718b7a04680ccbfa96fabe51dc3bf953cc7a691960ab8311f36837c43d777b96cee899bc8f122cdc46720798dc235a640328a9d1e56a5e5dedfd99952bd01bcc05e6c97bf8c6d29fb3aaa944191bca35377c884c4f400e28f1637b1658f6253adecf877c3b38f0215ac811f42f312909b4883956f8db79ae9bae1ccf7bd0929e5a152814b92913637625ae8bd2d9c963db2d14c8401e4de5473d54a8bc8d02e877e9c8ff77488c971d00caaf3de17aad0307fc4d91c80716732ecc9cadb076601b8192eb004c2e0e5f98cb17faf39594708e59c73c02acea3dc11acedee14b7eb2c63eaa23e4728018a6f5f91f112af71f8c9a41d117f805795ce80ef33f8bf3e57f7cd476451d1fa8ebe1fac92f0fe4151587016afba7abe5bb79d057a887f275c3b256bfa50ec47b9071492f339b1ae46a92429e2987cffac61604627f7192b6650cecc096c384892e93a530300dadfc046a6dfc070aa5f9fbfa65f23cc235c0afa9bb4ecf7422782a59a529493e74d077e31eb1c356591c1b9fc4ee4e34bb930b87de8bbbab2eab4335e244657500832abe2b5d78699d5c675d61808e4d64f1baf6f29e2be686e99c9edf9e708cb1e06b6c4671e497c372b32270bb7510e2f7704cfcf0e7142cadca04403d47232ce95e53972b7981cf1222cf4cd26c1159f0070ac7e74066982c075c60d3ed6610404c0cbc82cc3c24c2e71daf1f83f99aaaf6677c988a726f26277afebe945c66c9c3b60f7f273d873d861327efc36b9a74015df6b937e7ae072068ae0286b78c0d8f6927e4b41c08ed78171f6facf1131c8e9593cbf50e8470f7dc82f95e40f598d928db53aa1accf7138a540181715cc539c8806431ad05b6a301c48033585b88de16eba95deb13ef523af7f5852562ae0ecf64f0e5e5d42835d1160938633db7552ac656000a231d9af44cd2d1681526c9329180c3d5de990921aec85fb3f2c41d148348e02a53b7d315fb9f2b459a83620c50a18a8d177d968db9bd4c266220d059b7d634329bcae99bad2a6ff69ff4b346e58644ee13334bdcd39e105be37615316b639224a93dc8d8540a21f4168b7d99e863b0b78546876d56167011c7a84118045c2a17d932cf54e047c034a7a41d0557dac6060c1d1d7d0ea7cdcef06c0fc5164325881fa263f34e594f7604bb82790540991a506706c5ede08e3e9d2ff5c090bbd348cfd4ac8507664bda51f76e4e9971bd9a534d8d23a77b200f904b2445de06d0d63bd172c32640c04b9d546d665eef94eb5e4f43426e326ef2ad482a6ca890f980160f1ccda346867f989654174b2b836517d87deffcbae66442122b7b8e51f1a82014d1d1ee7b461170db250181e1b09053ff8676a1e74cac80d8e2ccaf1174e8169e5c2f075378d890dfcee180647729dcb3a7b35ace37659deca9d865c82e00a0ebca9fcd38272a4a7dc20557eb07f5f6bff37a82b3e07c6aad89173ae55231501a74538bbb67c94f28f817fdd5d82dab6be5a1fd356ca0b19cfaadd1c0452c7484f07e5cdc6018736284a3b81825585c90be41b14d28b0c45b2518eafe0a8bf2bbae6a7d5e8679ab98f7af19fb01b85e3f80869522b69ffa454a7c4256c867e96e2a7517a4a2b9135a0bc09c75289a2d459b37413a02b7bb5e2802bfcd2485bce651d7d5f82cf1099ff2f6ccb891465e80d7b2b1905892d5981f8720e1ca66469d86d9938ab6ba609dcb99a8435e2f9a9eea6c4815af3ab1675331ea5fe05e7bc0724ce79bb98682595253e756f5cb766ba227767bd93ad0b24704443b72607ddf640e332fc01c785f7ba53f886f82ae02daccbe7a177905582f13e1c982e21b6ab486a2384750f9de7657b428efa94a60437a672654b0d4a1c8b265734d075329acda0fff33d981837e01098fd625871fa54eaf2a0f67398d4fcddc1abe988178612d5375b2e08ecd10ce05578a68fcfe59be0d1a7f07679e9a7a1151c8c95ce671ed341fe78ab0ff6942f4bda30e71db13e4f1502ba20abd42677f77feb3f3bdad65f5506b81a161b8fb6ef0b6075e40449b8be646657332dda2f10654c8ad8ddac12390489db740cb8751c5dd32eca141e851b924708e6a51b3c9aa55921c07bb8f62a77117954be1c8e75c4e54753b372a79d422c5e59d4de80a6db5dbdc08494d7be89bc1d98b0978205be2d7f604d6b9479e6d94db4a9265317d28bdee67dd6f81236df0ffd5b3db221569c7b9bdde0220202a0e4dc97b96259bfbcb198f599c0723df21b8ab29c219f15ca72741cfbde7e9f2797acbc7e335198250d39eda946b9c115a3d9b3b6777cbbdb21822926a39509831b091a3630ba0908687358d4eab7c5d66f23f36d40c7ecfe6c9f33e7fc18af39fc02a725ac9c8faa725b9c38547f26238f4592386e9f218891c5b2465a6b116df49e665bfc5ddf1fcfc6cec80a575291f81d1d4d78ea82a2e99175c296b3b50345be0c36dc7c8c4ef56d9cd9e6842af572b5926709a512a6a619fe53aca7fe763c04601fa37768ce06cb669ff740c5ee52fc67589ffaf6252aa87b43efe33cda0e3540211c85da743083d22195f7535df1ad6b286acf755368f8407c0c94d6ff92e39471f1a829857a07b52113592ca83fceac033ff5e0d578c108f39d78d13f35679a2d28480ebd1fd2c61509b135ba023963843d0dded33c80567127fc6456cf5a82031e693bb14a402e65a49cf953b7e8000f4d7f16a2cbc852a37120a4c7964d0051c58732b05998227a4b187d74e2f0dc3f83002ce4b5a8c011421972aa22dca082e5cd936d521df63298e197e2801027628422f7f9df35a79a18278c32bd697086094624bb7683121ea3a464765e578a58b0550fccc35a0907b5006707b1203d423d25cdac75360905f252622c0dd6ce7960716ff3a4813ad2870dda009503c5663d2ffb6b400e0a73b8350e89176c28254705de838533f47f3f9e92c86512e86bb6ce9515c8dfe10446f5cc1610d0976e38de54a22324219948647c771c9cd05d258a978ebf9a6982925c067229eecfdcbc45111aab69a48e91caff7e5c9f569c6a11b9d8cd0e1d326aeb0f5b26b8c35bb31d3b168f32411e368bfa4f8f764bdb9296bb3bdb55e002cc743eb1518afda5fc1e8395936363764001e76dbcea2b9bfc8f123cd3bb50c30a506bf478cd65fc32494683a71aa674624fec9c815e9ebfb6585bce2d3e2f5bb7aad1da2e7cbcfe82ff06376492ee751839ce48977e428cffc043c3c99df08c393cbc4926e59b87efedb6dcc403c555a339253f1dca562564769d10d8a3a82da174a98a8f9b0f22e87050ac1847cf18b457f2e95e9e685cd0c43356e581d6dee0a844b6af3c7a8fc9a83c6c779404f8f2ce51e79de1f45a9c5d73ef42cbe9f0091d56742df30e9dcacbbf6ee85aa60beb8f81600dc847146bf3a111584c32255033e38428a0cc2b31a40de0f5545536c9f295d9dafc24a32c41c61ccb8bed5241a2fd1202b772f0767e7b462fae7cc638eb9631d9d3c441b8e64f3bd73e3d356b2b43e3976b8fddaa57fbc850552c0ab0772ba065df9f83e85aeef6679666b014fdfcab6aaa5c29b3d5196c24e4030301e89919ca1a68f5d358e2575595edf81124600b132d6a78ed36538c12fa970b5f0b1af187d2528399aec5345c33d012284c6b47cc1799ec6b89a24cb0773c3c6124dc059d300bf0c89e9dd5a6fb07b2c7d8b982eac50db563a352dc23dc974ba337fb50cb7d590bb5e2712bb02976cb4dec1088709d978f85dc05b42ac9cf97b46df54d9b04fbd7d7251a1d1c0609be514c633b28c46e33456105a9c7a50d176169ffc4e44f9a52b3654fd49c692e984c436fdfd35eef98f0e644e4af593ee0d534399fcbbf648fc2e4911841b3fde75e54d532d4b10956e47c0982d4a4451a53c62dde31db723e737d4bfe1a6b5ff56dab9e529bbf09aaa9cccef66ae173108069e2f7138b5508477f843db7136783c0fe51e2fb46ee8386d9db8be6fa7b0876fa8e3b92443e180caa67592fb3043bc66ba17dcf310efe4413949f57cc729eca7bf65b41f713e9736671c2dcc3f3f4497173f8adae2c628476060d48e00005aa437ca2e8fa04848bd4710c0750ae91219c8be6df6b94f926ca1de194258bd20884c178b8913d7084acc2f451a7e8a5e3a4100a8a3e0f890b51ade553c91b02695a49c77c68d5db7862206c9d69de7cc1dec8d3173a8668b49febe18e6363929c6ef588224237d6f0a9bdc2bb3c4046bdf47d501d144c31e51de1b536fb75c6252bd086377e5c1416413832f8a5d76ce224e22c3b3ac64c9a1134b82a27c5890d18000160af99315d08ed69b0f708de5f7fec381ace7bd4f36cd2c2af4bc0a5bad46637b3b6b100f86342301684b5bbe497b60f41b20069f2c76906dd6589fc4034fddb377d0839f13f8d2847203af1c237bf62646f518e767ec8fb601a3d723c08a6158bfa9409c8d8e59f869c41e0ee44a4910d504b36540f7b9756da035995e666d626814654e5141606deee1073aff21cd9903612f4dc70bb9cfb4a7a44c558a03817059b57295ecfa82d23346bdf6f9182dd7d76ef2109479d764d6d521171d292e5277c3497f795c7f92890278faf5c42c09fed52b31f95f117079db0fbf0a1abe631e67be95fbafe86e0e7439d3d911d8432cc9181082f46d1e7fba50ed4266f82c034a706c4153658bd10b04e152569fb63b4bdfc00e6ef03b46c00baf4104abcc7599475af8012857f3eb5b30c24b42ef51e10506fac5fd82fb43a790abf080f28333ed6b95114407eba045d7d5423a9ff854c1b9ccc9a8e848cc90fcbb7dd4f2f8d7ace73d7f8bc0467d909318209fe3264e092087001da33426e9d121562ebee35490a6d1a0e55e86ce8495d56e50a326fc383e2491674896819edd176e0d56ff9f083b67cf2c08780c2cc48aa67a02027f0a009dfaf416a87607b576b211253778e1e94f66555e67acb3e259cac3bbe083eda2991eba26b68e207824c70a0368ccf5aaf87139a7f061434bab3529a67b5cfbd62be8218d8cde276bf81197e98845ee1a6b6d39ea256a6ad2da5c17b886548b548c826f66339d992be84bcc3c16b01817e77f52c712e8a13965f3df0a68adb93b1ca5e8dad8264f0b866d6a043eb8b130454d5f83bbf0047f0174b1397a93c1b1ac1e645234c626c39440902e6a3bf52842b0fd29df15b77d06df881d18317dc2fe1c63ea53adf440e394f0ac3107857921dc7512570568c4db700e595bb78735aea1541341d0b0b857a3c693e4d07bbe9d9f3242a2d2c77e0fa8a3495528f4753a10c1e88782c04aba69b969992d372e0e340f39c061ac78440b422eb90f7ca851f2b58e93283d84e60ed90293bad6b44bb3e6b669b5fed887dcb56b55525</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
     </div>
 
     
@@ -361,22 +351,22 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/b763a0b1/" rel="bookmark">hexo setups</a></div>
-    </li>
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/726c1a57/" rel="bookmark">test_code</a></div>
     </li>
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/d5cdaa49/" rel="bookmark">密码testpassword</a></div>
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/34fc2379/" rel="bookmark">yaml语法示例</a></div>
     </li>
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/34fc2379/" rel="bookmark">yaml语法示例</a></div>
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/b763a0b1/" rel="bookmark">hexo setups</a></div>
+    </li>
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/d5cdaa49/" rel="bookmark">密码testpassword</a></div>
     </li>
   </ul>
  
@@ -401,7 +391,7 @@
 
           <div class="post-tags">
               <a href="/tags/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 基础算法</a>
-              <a href="/tags/encrypt-alg/" rel="tag"><i class="fa fa-tag"></i> encrypt_alg</a>
+              <a href="/tags/encryptalg/" rel="tag"><i class="fa fa-tag"></i> encryptalg</a>
           </div>
 
         
