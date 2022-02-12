@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test_code</title>
-    <url>/posts/726c1a57/</url>
-    <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
-<h3 id="dqwdwq"><a class="markdownIt-Anchor" href="#dqwdwq"></a> dqwdwq</h3>
-<p><mark>dwqd</mark><br />
-<img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/3-1Q113131610L7.gif" alt="顾客购物程序的类图" /></p>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∑</mo><mi>x</mi><mrow><mi>s</mi><mi>d</mi></mrow></msubsup><mfrac><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>+</mo><mi>a</mi></mrow><mi>α</mi></mfrac></mrow><annotation encoding="application/x-tex">\sum_{x}^{sd}{\frac{a}{b}+{a}\over{\alpha}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.37988em;vertical-align:-0.345em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9890079999999999em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.03488em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.0037em;">α</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.5508em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6915428571428572em;"><span style="top:-2.656em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span style="top:-3.2255000000000003em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line mtight" style="border-bottom-width:0.049em;"></span></span><span style="top:-3.384em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.344em;"><span></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<a id="more"></a>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>∗</mo><msup><mi>b</mi><mn>2</mn></msup><mspace width="1em"/><mo stretchy="false">(</mo><mi>b</mi><mi>ω</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">a*b^2 \quad (b \omega)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span><span class="mclose">)</span></span></span></span></span></p>
-<p><code>dwqdnjk</code><br />
-<code>test for ms code</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * @Descripttion: 111 https://leetcode.com/discuss/interview-question/1488563/microsoft-on-campus-2021-india</span></span><br><span class="line"><span class="comment"> * @version: </span></span><br><span class="line"><span class="comment"> * @Author: xxh</span></span><br><span class="line"><span class="comment"> * @Date: 2022-01-23</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;dp;</span><br><span class="line"><span class="type">int</span> dd[<span class="number">100</span>][<span class="number">2</span>][<span class="number">200</span>]=&#123;<span class="number">-1</span>&#125; ;<span class="comment">//pos - -x/y - value</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">dfs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> rx,<span class="type">int</span> ry,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(pos&gt;=n) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(dp[pos][<span class="built_in">abs</span>(rx-ry)]!=<span class="number">-1</span>)<span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">    <span class="type">int</span> v1=<span class="number">0</span>,v2=<span class="number">0</span>,v3=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(rx&gt;=h[pos])v1 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx-h[pos],ry,n);</span><br><span class="line">    <span class="keyword">if</span>(ry&gt;=h[pos]) v2 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry-h[pos],n);</span><br><span class="line">    v3=<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry,n);</span><br><span class="line">    dp[pos][<span class="built_in">abs</span>(rx-ry)] = <span class="built_in">max</span>(v1,<span class="built_in">max</span>(v2,v3));</span><br><span class="line">    <span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> x,<span class="type">int</span> y,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    dd[<span class="number">0</span>][<span class="number">0</span>][x]=dd[<span class="number">0</span>][<span class="number">1</span>][y]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = x;j&gt;=h[i<span class="number">-1</span>];j--) <span class="comment">//x</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=y;k&gt;=<span class="number">0</span>;k--)&#123; <span class="comment">//y</span></span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">0</span>][j]!=<span class="number">-1</span>) &#123;</span><br><span class="line">                    dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]= <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]+dd[i<span class="number">-1</span>][<span class="number">0</span>][j]+<span class="number">1</span>,dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line">                    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;j&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]&lt;&lt;endl;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = y;j&gt;=h[i<span class="number">-1</span>];j--)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=x;k&gt;=<span class="number">0</span>;k--)&#123;</span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">1</span>][j]!=<span class="number">-1</span>) dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]] = <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]+dd[i<span class="number">-1</span>][<span class="number">1</span>][j]+<span class="number">1</span>,dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> mx =<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][0][i];</span></span><br><span class="line">        mx = <span class="built_in">max</span>(mx,dd[n<span class="number">-1</span>][<span class="number">0</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="type">int</span> my = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][1][i];</span></span><br><span class="line">        my = <span class="built_in">max</span>(my,dd[n<span class="number">-1</span>][<span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(mx,my);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt;h=&#123;<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>&#125;;</span><br><span class="line">    <span class="type">int</span> x = <span class="number">8</span>,y=<span class="number">9</span>;</span><br><span class="line">    <span class="type">int</span> n = h.<span class="built_in">size</span>();</span><br><span class="line">    dp.<span class="built_in">resize</span>(n,<span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="built_in">max</span>(x,y)+<span class="number">1</span>,<span class="number">-1</span>));</span><br><span class="line">    <span class="built_in">memset</span>(dd,<span class="number">0xff</span>,<span class="built_in">sizeof</span>(dd));</span><br><span class="line">    cout&lt;&lt;<span class="built_in">f</span>(h,<span class="number">0</span>,x,y,n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>test</category>
-        <category>面试题</category>
-        <category>MS</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-        <tag>dp</tag>
-        <tag>ms面试题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo setups</title>
     <url>/posts/b763a0b1/</url>
     <content><![CDATA[<h3 id="centos-关闭selinux"><a class="markdownIt-Anchor" href="#centos-关闭selinux"></a> centos 关闭SELINUX</h3>
@@ -73,25 +47,29 @@
       </tags>
   </entry>
   <entry>
-    <title>密码testpassword</title>
-    <url>/posts/d5cdaa49/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>test_code</title>
+    <url>/posts/726c1a57/</url>
+    <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
+<h3 id="dqwdwq"><a class="markdownIt-Anchor" href="#dqwdwq"></a> dqwdwq</h3>
+<p><mark>dwqd</mark><br />
+<img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/3-1Q113131610L7.gif" alt="顾客购物程序的类图" /></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∑</mo><mi>x</mi><mrow><mi>s</mi><mi>d</mi></mrow></msubsup><mfrac><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>+</mo><mi>a</mi></mrow><mi>α</mi></mfrac></mrow><annotation encoding="application/x-tex">\sum_{x}^{sd}{\frac{a}{b}+{a}\over{\alpha}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.37988em;vertical-align:-0.345em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9890079999999999em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.03488em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.0037em;">α</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.5508em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6915428571428572em;"><span style="top:-2.656em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span style="top:-3.2255000000000003em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line mtight" style="border-bottom-width:0.049em;"></span></span><span style="top:-3.384em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.344em;"><span></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<a id="more"></a>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>∗</mo><msup><mi>b</mi><mn>2</mn></msup><mspace width="1em"/><mo stretchy="false">(</mo><mi>b</mi><mi>ω</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">a*b^2 \quad (b \omega)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span><span class="mclose">)</span></span></span></span></span></p>
+<p><code>dwqdnjk</code><br />
+<code>test for ms code</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * @Descripttion: 111 https://leetcode.com/discuss/interview-question/1488563/microsoft-on-campus-2021-india</span></span><br><span class="line"><span class="comment"> * @version: </span></span><br><span class="line"><span class="comment"> * @Author: xxh</span></span><br><span class="line"><span class="comment"> * @Date: 2022-01-23</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;dp;</span><br><span class="line"><span class="type">int</span> dd[<span class="number">100</span>][<span class="number">2</span>][<span class="number">200</span>]=&#123;<span class="number">-1</span>&#125; ;<span class="comment">//pos - -x/y - value</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">dfs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> rx,<span class="type">int</span> ry,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(pos&gt;=n) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(dp[pos][<span class="built_in">abs</span>(rx-ry)]!=<span class="number">-1</span>)<span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">    <span class="type">int</span> v1=<span class="number">0</span>,v2=<span class="number">0</span>,v3=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(rx&gt;=h[pos])v1 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx-h[pos],ry,n);</span><br><span class="line">    <span class="keyword">if</span>(ry&gt;=h[pos]) v2 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry-h[pos],n);</span><br><span class="line">    v3=<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry,n);</span><br><span class="line">    dp[pos][<span class="built_in">abs</span>(rx-ry)] = <span class="built_in">max</span>(v1,<span class="built_in">max</span>(v2,v3));</span><br><span class="line">    <span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> x,<span class="type">int</span> y,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    dd[<span class="number">0</span>][<span class="number">0</span>][x]=dd[<span class="number">0</span>][<span class="number">1</span>][y]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = x;j&gt;=h[i<span class="number">-1</span>];j--) <span class="comment">//x</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=y;k&gt;=<span class="number">0</span>;k--)&#123; <span class="comment">//y</span></span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">0</span>][j]!=<span class="number">-1</span>) &#123;</span><br><span class="line">                    dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]= <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]+dd[i<span class="number">-1</span>][<span class="number">0</span>][j]+<span class="number">1</span>,dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line">                    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;j&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]&lt;&lt;endl;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = y;j&gt;=h[i<span class="number">-1</span>];j--)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=x;k&gt;=<span class="number">0</span>;k--)&#123;</span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">1</span>][j]!=<span class="number">-1</span>) dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]] = <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]+dd[i<span class="number">-1</span>][<span class="number">1</span>][j]+<span class="number">1</span>,dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> mx =<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][0][i];</span></span><br><span class="line">        mx = <span class="built_in">max</span>(mx,dd[n<span class="number">-1</span>][<span class="number">0</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="type">int</span> my = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][1][i];</span></span><br><span class="line">        my = <span class="built_in">max</span>(my,dd[n<span class="number">-1</span>][<span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(mx,my);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt;h=&#123;<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>&#125;;</span><br><span class="line">    <span class="type">int</span> x = <span class="number">8</span>,y=<span class="number">9</span>;</span><br><span class="line">    <span class="type">int</span> n = h.<span class="built_in">size</span>();</span><br><span class="line">    dp.<span class="built_in">resize</span>(n,<span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="built_in">max</span>(x,y)+<span class="number">1</span>,<span class="number">-1</span>));</span><br><span class="line">    <span class="built_in">memset</span>(dd,<span class="number">0xff</span>,<span class="built_in">sizeof</span>(dd));</span><br><span class="line">    cout&lt;&lt;<span class="built_in">f</span>(h,<span class="number">0</span>,x,y,n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>test</category>
+        <category>面试题</category>
+        <category>MS</category>
       </categories>
       <tags>
         <tag>test</tag>
+        <tag>dp</tag>
+        <tag>ms面试题</tag>
       </tags>
   </entry>
   <entry>
@@ -114,6 +92,53 @@
       </categories>
       <tags>
         <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>密码testpassword</title>
+    <url>/posts/d5cdaa49/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>decltype关键字</title>
+    <url>/posts/6d46b940/</url>
+    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
+<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
+<p>解决难以拼写的类型名，有以下两个方案：</p>
+<ol>
+<li>使用类型别名技术</li>
+<li>使用auto和decltype</li>
+</ol>
+<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
+<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
+<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
+<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
+<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
+]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp语法</category>
+      </categories>
+      <tags>
+        <tag>cpp语法</tag>
       </tags>
   </entry>
   <entry>
@@ -213,54 +238,6 @@
       </tags>
   </entry>
   <entry>
-    <title>decltype关键字</title>
-    <url>/posts/6d46b940/</url>
-    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
-<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
-<p>解决难以拼写的类型名，有以下两个方案：</p>
-<ol>
-<li>使用类型别名技术</li>
-<li>使用auto和decltype</li>
-</ol>
-<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
-<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
-<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
-<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
-<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp博客汇总</title>
-    <url>/posts/26f80d45/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2ad428ac34b9d30537e31d1e6ea1063a6cb32c94d1652167623c37725a469867">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad263861a013083448150d2196193e2ba07b</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp资源</category>
-      </categories>
-      <tags>
-        <tag>cpp资源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>unordered_map set自定义对象的hash</title>
     <url>/posts/f17b9616/</url>
     <content><![CDATA[<p><code>unordered_map/set</code>使用hash进行存储，因此存储自定义对象前，必须：</p>
@@ -288,6 +265,7 @@
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//注意namespace ，必要时可以指定namespace std&#123;&#125;</span></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">hash</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">equal_to</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object&gt; objects;</span><br></pre></td></tr></table></figure>
 <h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
 <p><a href="https://blog.csdn.net/lpstudy/article/details/54345050">https://blog.csdn.net/lpstudy/article/details/54345050</a></p>
+<p><a href="https://blog.csdn.net/y109y/article/details/82669620">https://blog.csdn.net/y109y/article/details/82669620</a></p>
 ]]></content>
       <categories>
         <category>cpp</category>
@@ -295,6 +273,67 @@
       </categories>
       <tags>
         <tag>cpp语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】1020. 飞地的数量</title>
+    <url>/posts/48f31485/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
+<blockquote>
+<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>dfs</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】1984. 学生分数的最小差值</title>
+    <url>/posts/3e175728/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220211134306054.png" alt="image-20220211134306054" /></p>
+<blockquote>
+<p>思路：排序后使用滑动窗口的思想，取窗口内最大值和最小值，即i和i+k-1的差值，取最小。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">minimumDifference</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">1</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">sort</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>());</span><br><span class="line">        <span class="type">int</span> mi = INT_MAX;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i+k<span class="number">-1</span>&lt;nums.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            mi = <span class="built_in">min</span>(mi,nums[i+k<span class="number">-1</span>]-nums[i]);</span><br><span class="line">        </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> mi;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>模拟题</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cpp博客汇总</title>
+    <url>/posts/26f80d45/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="48d4c2071a98261b91bf0f24d970df9a5ee3e1bc9449d012e30537c624463818">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad26eb3a75cba0265537fed2ef182633562904235b0284ffd7da53a6cf40d6b9c9fdc57a1e72ccf74d82d900b007763c0fa11de3777c888133a80ebcf422c34dfceae367d70f6a29a85a916cf04b3ed2f82eeb30bbe9fa60970f3db4e55dcb8b5662</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp资源</category>
+      </categories>
+      <tags>
+        <tag>cpp资源</tag>
       </tags>
   </entry>
   <entry>
@@ -353,44 +392,6 @@
       <tags>
         <tag>基础算法</tag>
         <tag>encryptalg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【每日】1020. 飞地的数量</title>
-    <url>/posts/48f31485/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
-<blockquote>
-<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>dfs</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【每日】1984. 学生分数的最小差值</title>
-    <url>/posts/3e175728/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220211134306054.png" alt="image-20220211134306054" /></p>
-<blockquote>
-<p>思路：排序后使用滑动窗口的思想，取窗口内最大值和最小值，即i和i+k-1的差值，取最小。</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">minimumDifference</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">1</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">sort</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>());</span><br><span class="line">        <span class="type">int</span> mi = INT_MAX;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i+k<span class="number">-1</span>&lt;nums.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            mi = <span class="built_in">min</span>(mi,nums[i+k<span class="number">-1</span>]-nums[i]);</span><br><span class="line">        </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> mi;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>模拟题</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
       </tags>
   </entry>
 </search>
