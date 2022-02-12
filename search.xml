@@ -47,28 +47,6 @@
       </tags>
   </entry>
   <entry>
-    <title>密码testpassword</title>
-    <url>/posts/d5cdaa49/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test_code</title>
     <url>/posts/726c1a57/</url>
     <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
@@ -95,6 +73,28 @@
       </tags>
   </entry>
   <entry>
+    <title>密码testpassword</title>
+    <url>/posts/d5cdaa49/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>yaml语法示例</title>
     <url>/posts/34fc2379/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
@@ -114,29 +114,6 @@
       </categories>
       <tags>
         <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp博客汇总</title>
-    <url>/posts/26f80d45/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2ad428ac34b9d30537e31d1e6ea1063a6cb32c94d1652167623c37725a469867">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad263861a013083448150d2196193e2ba07b</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp资源</category>
-      </categories>
-      <tags>
-        <tag>cpp资源</tag>
       </tags>
   </entry>
   <entry>
@@ -249,7 +226,7 @@
 <h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
 <p><a href="https://www.cnblogs.com/DswCnblog/p/5629165.html">https://www.cnblogs.com/DswCnblog/p/5629165.html</a></p>
 <p><a href="https://www.cnblogs.com/jimodetiantang/p/9016826.html">https://www.cnblogs.com/jimodetiantang/p/9016826.html</a></p>
-<p>关于捕获和不捕获的lambda转换汇编代码分析https://blog.csdn.net/qq_36419971/article/details/117396419</p>
+<p>关于捕获和不捕获的lambda转换汇编代码分析 <a href="https://blog.csdn.net/qq_36419971/article/details/117396419">https://blog.csdn.net/qq_36419971/article/details/117396419</a></p>
 ]]></content>
       <categories>
         <category>cpp</category>
@@ -257,6 +234,29 @@
       </categories>
       <tags>
         <tag>cpp语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cpp博客汇总</title>
+    <url>/posts/26f80d45/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2ad428ac34b9d30537e31d1e6ea1063a6cb32c94d1652167623c37725a469867">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad263861a013083448150d2196193e2ba07b</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp资源</category>
+      </categories>
+      <tags>
+        <tag>cpp资源</tag>
       </tags>
   </entry>
   <entry>
@@ -310,6 +310,25 @@
         <category>力扣</category>
         <category>每日一题</category>
         <category>模拟题</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】1020. 飞地的数量</title>
+    <url>/posts/48f31485/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
+<blockquote>
+<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>dfs</category>
       </categories>
       <tags>
         <tag>算法</tag>
@@ -371,25 +390,6 @@
       <tags>
         <tag>基础算法</tag>
         <tag>encryptalg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【每日】1020. 飞地的数量</title>
-    <url>/posts/48f31485/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
-<blockquote>
-<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>dfs</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
       </tags>
   </entry>
 </search>
