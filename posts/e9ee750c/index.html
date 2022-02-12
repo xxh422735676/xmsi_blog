@@ -25,25 +25,25 @@
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.zhumeng2021.cn","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.10.0","exturl":false,"sidebar":{"position":"left","width":250,"display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":true,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"none","post_header":"fadeInDown","post_body":"fadeInRight","coll_header":"fadeInRight","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="密码testpassword">
-<meta property="og:url" content="https://blog.zhumeng2021.cn/posts/d5cdaa49/index.html">
+<meta property="og:title" content="【C++语法进阶】Lambda表达式">
+<meta property="og:url" content="https://blog.zhumeng2021.cn/posts/e9ee750c/index.html">
 <meta property="og:site_name" content="在赛博的空">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-02-10T03:56:08.000Z">
-<meta property="article:modified_time" content="2022-02-11T05:16:37.284Z">
+<meta property="article:published_time" content="2022-02-12T07:07:11.000Z">
+<meta property="article:modified_time" content="2022-02-12T08:16:47.089Z">
 <meta property="article:author" content="MoonXu">
-<meta property="article:tag" content="test">
+<meta property="article:tag" content="cpp语法">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://blog.zhumeng2021.cn/posts/d5cdaa49/">
+<link rel="canonical" href="https://blog.zhumeng2021.cn/posts/e9ee750c/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":"","permalink":"https://blog.zhumeng2021.cn/posts/d5cdaa49/","path":"posts/d5cdaa49/","title":"密码testpassword"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":"","permalink":"https://blog.zhumeng2021.cn/posts/e9ee750c/","path":"posts/e9ee750c/","title":"【C++语法进阶】Lambda表达式"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>密码testpassword | 在赛博的空</title>
+<title>【C++语法进阶】Lambda表达式 | 在赛博的空</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -139,7 +139,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -152,6 +152,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A3%B0%E6%98%8Elambda%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text"> 声明Lambda表达式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F1"><span class="nav-number">1.1.</span> <span class="nav-text"> 格式1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F2"><span class="nav-number">1.2.</span> <span class="nav-text"> 格式2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F3"><span class="nav-number">1.3.</span> <span class="nav-text"> 格式3</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8D%95%E8%8E%B7%E5%A4%96%E9%83%A8%E5%8F%98%E9%87%8F"><span class="nav-number">2.</span> <span class="nav-text"> 捕获外部变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%8F%82%E6%95%B0"><span class="nav-number">3.</span> <span class="nav-text"> Lambda表达式的参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E7%B1%BB%E5%9E%8B"><span class="nav-number">4.</span> <span class="nav-text"> Lambda表达式的类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">5.</span> <span class="nav-text"> 参考资料</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -247,7 +248,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.zhumeng2021.cn/posts/d5cdaa49/">
+    <link itemprop="mainEntityOfPage" href="https://blog.zhumeng2021.cn/posts/e9ee750c/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/android-chrome-192x192.png">
@@ -260,7 +261,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          密码testpassword
+          【C++语法进阶】Lambda表达式
         </h1>
 
         <div class="post-meta-container">
@@ -270,15 +271,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2022-02-10 11:56:08" itemprop="dateCreated datePublished" datetime="2022-02-10T11:56:08+08:00">2022-02-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-11 13:16:37" itemprop="dateModified" datetime="2022-02-11T13:16:37+08:00">2022-02-11</time>
+      <time title="创建时间：2022-02-12 15:07:11 / 修改时间：16:16:47" itemprop="dateCreated datePublished" datetime="2022-02-12T15:07:11+08:00">2022-02-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -286,7 +281,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a>
+          <a href="/categories/cpp/" itemprop="url" rel="index"><span itemprop="name">cpp</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/cpp/cpp%E8%AF%AD%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">cpp语法</span></a>
         </span>
     </span>
 
@@ -304,14 +303,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>12</span>
+      <span>1.8k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -323,18 +322,90 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ff70b20ab201b4a3ad0b6750e19f901fa1443cb40589f1cf72d2c936a2eecebe">4c7001934e3e5a2a8fd08e6c38ff7447bba297e9690d41d48dabbda263c1454a84a1183e69110c19be8abbba96073d6f</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+        <h3 id="声明lambda表达式"><a class="markdownIt-Anchor" href="#声明lambda表达式"></a> 声明Lambda表达式</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[capture list] (params list) <span class="keyword">mutable</span> exception-&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>capture list： 捕获外部变量的列表</li>
+<li>params list：形参列表</li>
+<li>mutable指示符：是否可以修改捕获的变量</li>
+<li>exception：异常设定</li>
+<li>return type：返回类型</li>
+<li>function body：函数体</li>
+</ol>
+<h4 id="格式1"><a class="markdownIt-Anchor" href="#格式1"></a> 格式1</h4>
+<p>声明了const类型的表达式，函数中不能修改捕获列表中的值（引用传递除外）</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[capture list] (params list) -&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="格式2"><a class="markdownIt-Anchor" href="#格式2"></a> 格式2</h4>
+<p>省略了返回值的类型，编译器自动推断，若：</p>
+<ol>
+<li>
+<p>含有return，则类型由return决定</p>
+</li>
+<li>
+<p>不含有return，类型为void</p>
+</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[capture list] (params list)  &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="格式3"><a class="markdownIt-Anchor" href="#格式3"></a> 格式3</h4>
+<p>无参数函数</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[capture list] &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="捕获外部变量"><a class="markdownIt-Anchor" href="#捕获外部变量"></a> 捕获外部变量</h3>
+<table>
+<thead>
+<tr>
+<th>捕获形式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[]</td>
+<td>不捕获任何外部变量</td>
+</tr>
+<tr>
+<td>[变量名…]</td>
+<td>默认以值形式捕获多个指定外部变量，如果引用捕获，需要显式声明<code>&amp;</code>说明符</td>
+</tr>
+<tr>
+<td>[this]</td>
+<td>值形式捕获this指针</td>
+</tr>
+<tr>
+<td>[=]</td>
+<td>值形式捕获外部所有变量</td>
+</tr>
+<tr>
+<td>[&amp;]</td>
+<td>引用方式捕获外部所有变量</td>
+</tr>
+<tr>
+<td>[=,&amp;x]</td>
+<td>变量x用引用方式捕获，其余变量以传值形式捕获</td>
+</tr>
+<tr>
+<td>[&amp;,x]</td>
+<td>变量x以传值方式捕获，其余变量以引用形式捕获</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lambda表达式的参数"><a class="markdownIt-Anchor" href="#lambda表达式的参数"></a> Lambda表达式的参数</h3>
+<ol>
+<li>参数列表中不能用默认参数</li>
+<li>不支持可变长度的参数</li>
+<li>所有参数必须有参数名</li>
+</ol>
+<h3 id="lambda表达式的类型"><a class="markdownIt-Anchor" href="#lambda表达式的类型"></a> Lambda表达式的类型</h3>
+<p>Lambda 函数是一个依赖于实现的函数对象类型,这个类型的名字只有编译器知道. 如果用户想把 lambda 函数做为一个参数来传递, 那么形参的类型必须是模板类型或者必须能创建一个 <mark>std::function</mark> 类似的对象去捕获 lambda 函数.使用 auto 关键字可以帮助存储 Lambda 函数。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">auto</span> my_lambda_func = [&amp;](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="keyword">auto</span> my_onheap_lambda_func = <span class="keyword">new</span> <span class="built_in">auto</span>([=](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">eval</span><span class="params">(std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f,<span class="type">double</span> x=<span class="number">2.0</span>)</span></span>&#123;<span class="keyword">return</span> <span class="built_in">f</span>(x);&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f0 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> <span class="number">1</span>;&#125;;</span><br><span class="line">    <span class="keyword">auto</span> f1 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x;&#125;;</span><br><span class="line">    <span class="keyword">decltype</span>(f0) fa[<span class="number">3</span>]=&#123;f0,f1,[](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;&#125;;</span><br><span class="line">    std::vector&lt;std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; &gt; fv = &#123;f0,f1&#125;;</span><br><span class="line">    fv.<span class="built_in">push_back</span>([](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;fv.<span class="built_in">size</span>();i++) std::cout&lt;&lt;fv[i](<span class="number">2.0</span>)&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>一个没有指定任何捕获的 lambda 函数,可以显式转换成一个具有相同声明形式函数指针.所以,像下面这样做是合法的:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">auto</span> a_lambda_func = [](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="built_in">void</span> (*func_ptr)(<span class="type">int</span>) = a_lambda_func;</span><br><span class="line"><span class="built_in">func_ptr</span>(<span class="number">4</span>); <span class="comment">// calls the lambda</span></span><br></pre></td></tr></table></figure>
+<p>但是<mark>带捕获的lambda是不能够作为函数指针进行参数传递</mark>。</p>
+<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/DswCnblog/p/5629165.html">https://www.cnblogs.com/DswCnblog/p/5629165.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/jimodetiantang/p/9016826.html">https://www.cnblogs.com/jimodetiantang/p/9016826.html</a></p>
+<p>关于捕获和不捕获的lambda转换汇编代码分析https://blog.csdn.net/qq_36419971/article/details/117396419</p>
+
     </div>
 
     
@@ -347,27 +418,27 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/34fc2379/" rel="bookmark">yaml语法示例</a></div>
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/f17b9616/" rel="bookmark">unordered_map set自定义对象的hash</a></div>
     </li>
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/726c1a57/" rel="bookmark">test_code</a></div>
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/6d46b940/" rel="bookmark">decltype关键字</a></div>
+    </li>
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/26f80d45/" rel="bookmark">cpp博客汇总</a></div>
+    </li>
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/d5cdaa49/" rel="bookmark">密码testpassword</a></div>
     </li>
     <li class="popular-posts-item">
       
       
       <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/b763a0b1/" rel="bookmark">hexo setups</a></div>
-    </li>
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/undefined" rel="bookmark"></a></div>
-    </li>
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/f17b9616/" rel="bookmark">unordered_map set自定义对象的hash</a></div>
     </li>
   </ul>
  
@@ -382,7 +453,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://blog.zhumeng2021.cn/posts/d5cdaa49/" title="密码testpassword">https://blog.zhumeng2021.cn/posts/d5cdaa49/</a>
+      <a href="https://blog.zhumeng2021.cn/posts/e9ee750c/" title="【C++语法进阶】Lambda表达式">https://blog.zhumeng2021.cn/posts/e9ee750c/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -391,21 +462,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/test/" rel="tag"><i class="fa fa-tag"></i> test</a>
+              <a href="/tags/cpp%E8%AF%AD%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> cpp语法</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/6d46b940/" rel="prev" title="decltype关键字">
-                  <i class="fa fa-chevron-left"></i> decltype关键字
+                <a href="/posts/99d9a14f/" rel="prev" title="二分算法详解">
+                  <i class="fa fa-chevron-left"></i> 二分算法详解
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/3e175728/" rel="next" title="【每日】1984. 学生分数的最小差值">
-                  【每日】1984. 学生分数的最小差值 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
