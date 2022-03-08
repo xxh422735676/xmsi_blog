@@ -25,26 +25,28 @@
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.zhumeng2021.cn","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.10.0","exturl":false,"sidebar":{"position":"left","width":250,"display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":true,"nav":null,"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"none","post_header":"fadeInDown","post_body":"fadeInRight","coll_header":"fadeInRight","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
   <meta property="og:type" content="article">
-<meta property="og:title" content="二分算法详解">
+<meta property="og:title" content="二叉树基础详解">
 <meta property="og:url" content="https://blog.zhumeng2021.cn/posts/99d9a14f/index.html">
 <meta property="og:site_name" content="在赛博的空">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-02-11T07:30:35.000Z">
-<meta property="article:modified_time" content="2022-02-19T05:53:44.138Z">
+<meta property="og:image" content="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/mathematical_expression.png">
+<meta property="article:published_time" content="2022-02-19T05:53:53.000Z">
+<meta property="article:modified_time" content="2022-03-07T10:46:52.452Z">
 <meta property="article:author" content="MoonXu">
-<meta property="article:tag" content="encryptalg">
 <meta property="article:tag" content="基础算法">
+<meta property="article:tag" content="encryptalg">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/mathematical_expression.png">
 
 
 <link rel="canonical" href="https://blog.zhumeng2021.cn/posts/99d9a14f/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":"","permalink":"https://blog.zhumeng2021.cn/posts/99d9a14f/","path":"posts/99d9a14f/","title":"二分算法详解"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":"","permalink":"https://blog.zhumeng2021.cn/posts/99d9a14f/","path":"posts/99d9a14f/","title":"二叉树基础详解"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>二分算法详解 | 在赛博的空</title>
+<title>二叉树基础详解 | 在赛博的空</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -95,8 +97,8 @@
         <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
         <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
         <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">11</span></a></li>
-        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">20</span></a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">20</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">22</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">21</span></a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -153,7 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E8%A7%84%E4%BA%8C%E5%88%86%E5%86%99%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text"> 常规二分写法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E6%89%BEtarget%E7%9A%84%E5%8F%B3%E8%BE%B9%E7%95%8C"><span class="nav-number">2.</span> <span class="nav-text"> 查找&lt;&#x3D;target的右边界</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC%E7%9A%84%E6%9F%A5%E6%89%BE%E5%8F%B3%E4%BE%A7%E8%BE%B9%E7%95%8C%E4%BB%A3%E7%A0%81"><span class="nav-number">2.1.</span> <span class="nav-text"> 一个其他版本的查找右侧边界代码</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E6%89%BEtarget%E7%9A%84%E5%B7%A6%E8%BE%B9%E7%95%8C"><span class="nav-number">3.</span> <span class="nav-text"> 查找&gt;&#x3D;target的左边界</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">4.</span> <span class="nav-text"> 题目</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84"><span class="nav-number">4.1.</span> <span class="nav-text"> 搜索旋转排序数组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC"><span class="nav-number">4.2.</span> <span class="nav-text"> 寻找峰值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE"><span class="nav-number">4.3.</span> <span class="nav-text"> 在排序数组中查找元素的第一个和最后一个位置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%BE%E5%88%B0-k-%E4%B8%AA%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E5%85%83%E7%B4%A0"><span class="nav-number">4.4.</span> <span class="nav-text"> 找到 K 个最接近的元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E5%8F%8C%E6%8C%87%E9%92%88"><span class="nav-number">4.5.</span> <span class="nav-text"> 方法一：二分查找+双指针</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%E6%8E%92%E5%BA%8F"><span class="nav-number">4.6.</span> <span class="nav-text"> 方法二：排序</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">5.</span> <span class="nav-text"> 参考资料</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%81%8D%E5%8E%86"><span class="nav-number">1.</span> <span class="nav-text"> 遍历</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#x%E5%BA%8F%E9%81%8D%E5%8E%86"><span class="nav-number">1.1.</span> <span class="nav-text"> X序遍历</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86"><span class="nav-number">1.2.</span> <span class="nav-text"> 层次遍历</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E9%A1%B6%E5%90%91%E4%B8%8B"><span class="nav-number">1.3.</span> <span class="nav-text"> 自顶向下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%BA%95%E5%90%91%E4%B8%8A"><span class="nav-number">1.4.</span> <span class="nav-text"> 自底向上</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B1%82%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6"><span class="nav-number">1.4.1.</span> <span class="nav-text"> 求树的最大深度</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -168,13 +170,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-count">21</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">20</span>
+        <span class="site-state-item-count">22</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -265,7 +267,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          二分算法详解
+          二叉树基础详解
         </h1>
 
         <div class="post-meta-container">
@@ -276,14 +278,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-02-11 15:30:35" itemprop="dateCreated datePublished" datetime="2022-02-11T15:30:35+08:00">2022-02-11</time>
+      <time title="创建时间：2022-02-19 13:53:53" itemprop="dateCreated datePublished" datetime="2022-02-19T13:53:53+08:00">2022-02-19</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-02-19 13:53:44" itemprop="dateModified" datetime="2022-02-19T13:53:44+08:00">2022-02-19</time>
+      <time title="修改时间：2022-03-07 18:46:52" itemprop="dateModified" datetime="2022-03-07T18:46:52+08:00">2022-03-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -299,7 +301,7 @@
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86/" itemprop="url" rel="index"><span itemprop="name">二分</span></a>
+          <a href="/categories/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/" itemprop="url" rel="index"><span itemprop="name">二叉树</span></a>
         </span>
     </span>
 
@@ -317,14 +319,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>4.6k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>5 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -336,51 +338,23 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h3 id="常规二分写法"><a class="markdownIt-Anchor" href="#常规二分写法"></a> 常规二分写法</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;=r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+ (r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span>(mid = target) <span class="keyword">return</span> mid;</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;target)l = mid+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
-<p>每次搜索的区间是[l,r]，因此l和r均不包含mid</p>
-<h3 id="查找target的右边界"><a class="markdownIt-Anchor" href="#查找target的右边界"></a> 查找&lt;=target的右边界</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l + (r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(mid&lt;=target) l = mid;</span><br><span class="line">    <span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>收缩区间，查找右边界指在&lt;=target的区间中取最大的一个，即&gt;target的区间舍去，<code>r = mid-1</code>，每次搜索的区间是(left,right]</li>
-<li>因为<code>mid = l+(r-l&gt;&gt;1)</code>总是落在(l+r)/2的右侧，<code>l=mid</code>可以保证<code>l</code>始终在左区间的右边界上</li>
-<li>当终止条件<code>l==r</code>时，r右边的区域为&gt;target，l为&lt;=target的区域的右边界。</li>
-</ol>
-<h4 id="一个其他版本的查找右侧边界代码"><a class="markdownIt-Anchor" href="#一个其他版本的查找右侧边界代码"></a> 一个其他版本的查找右侧边界代码</h4>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+ (r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">if</span>(mid&gt;target) r = mid;</span><br><span class="line">    <span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l<span class="number">-1</span>;</span><br></pre></td></tr></table></figure>
-<p>其实就是<mark>查找 &gt;target的左边界</mark>  版本，返回left-1即<mark>为&lt;=tareget的右边界</mark></p>
-<h3 id="查找target的左边界"><a class="markdownIt-Anchor" href="#查找target的左边界"></a> 查找&gt;=target的左边界</h3>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">    <span class="type">int</span> mid = l+(r-l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(mid&gt;=target)r = mid;</span><br><span class="line">    <span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> l;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>收缩区间，查找左边界指在&gt;=target的区间中取最小的一个，即&lt;target的区间舍去，<code>l = mid+1</code>，每次搜索的区间是[left,right)</li>
-<li>因为mid = l+(r-l&gt;&gt;1)总是落在(l+r)/2的左侧，<code>r = mid</code>可以保证<code>r</code>始终落在右区间的左边界上</li>
-<li>当终止条件<code>l==r</code>时，l左侧的部分全部为&lt;target，r为&lt;=target的区域的右边界</li>
-</ol>
-<h3 id="题目"><a class="markdownIt-Anchor" href="#题目"></a> 题目</h3>
-<h4 id="搜索旋转排序数组"><a class="markdownIt-Anchor" href="#搜索旋转排序数组"></a> <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/search-in-rotated-sorted-array/">搜索旋转排序数组</a></h4>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">search</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> l  = <span class="number">0</span>,r = nums.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;=r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">            <span class="type">int</span> num = nums[mid],numl = nums[l],numr = nums[r];</span><br><span class="line">            <span class="keyword">if</span>(num==target)<span class="keyword">return</span> mid;</span><br><span class="line">            <span class="keyword">if</span>(numl&lt;=num)&#123; <span class="comment">//左边有序</span></span><br><span class="line">                <span class="keyword">if</span>(target&lt;num &amp;&amp; target&gt;=numl)r = mid<span class="number">-1</span>; <span class="comment">//在左边</span></span><br><span class="line">                <span class="keyword">else</span> l = mid+<span class="number">1</span>; <span class="comment">//在右边</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123; <span class="comment">//右边有序</span></span><br><span class="line">                <span class="keyword">if</span>(target&gt;num &amp;&amp; target&lt;=numr ) l = mid+<span class="number">1</span>;</span><br><span class="line">                <span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="寻找峰值"><a class="markdownIt-Anchor" href="#寻找峰值"></a> <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/find-peak-element/">寻找峰值</a></h4>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">findPeakElement</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> l = <span class="number">0</span>,r = nums.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l + (r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">            <span class="type">int</span> prev,next;</span><br><span class="line">            <span class="keyword">if</span>(mid<span class="number">-1</span>&gt;=<span class="number">0</span>)prev = nums[mid<span class="number">-1</span>];<span class="keyword">else</span> prev = INT_MIN;</span><br><span class="line">            <span class="keyword">if</span>(mid+<span class="number">1</span>&lt;=nums.<span class="built_in">size</span>()<span class="number">-1</span>)next = nums[mid+<span class="number">1</span>];<span class="keyword">else</span> next = INT_MIN;</span><br><span class="line">            <span class="keyword">if</span>(nums[mid]&gt;prev&amp;&amp;nums[mid]&gt;next)<span class="keyword">return</span> mid;</span><br><span class="line">            <span class="keyword">if</span>(nums[mid]&gt;=prev) l = mid+<span class="number">1</span>; <span class="keyword">else</span> r = mid<span class="number">-1</span>; <span class="comment">//等号给INT_MIN 上坡必有顶</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> l;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="在排序数组中查找元素的第一个和最后一个位置"><a class="markdownIt-Anchor" href="#在排序数组中查找元素的第一个和最后一个位置"></a> <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/">在排序数组中查找元素的第一个和最后一个位置</a></h4>
-<p>lower_bound(start,end,target) 返回&gt;=target的第一个位置地址</p>
-<p>upper_bound(start,end,target) 返回&gt;target的第一个位置地址</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">searchRange</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> target)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//第一种方法使用双二分法，注意边界</span></span><br><span class="line">        <span class="type">int</span> l = <span class="number">0</span>, r = nums.<span class="built_in">size</span>()<span class="number">-1</span>;<span class="type">int</span> left=<span class="number">-1</span>,right = <span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123; <span class="comment">//&gt;=target的左边界</span></span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">            <span class="keyword">if</span>(nums[mid]&gt;=target)r = mid;<span class="keyword">else</span> l = mid+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>()&gt;<span class="number">0</span>) <span class="keyword">if</span>( nums[l]!=target)left = <span class="number">-1</span>;<span class="keyword">else</span> left=l;</span><br><span class="line">        l =<span class="number">0</span>;r = nums.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;<span class="comment">//&lt;=target的右边界</span></span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(nums[mid]&lt;=target)l = mid;<span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>()&gt;<span class="number">0</span> )<span class="keyword">if</span>(nums[l]!=target)right = <span class="number">-1</span>;<span class="keyword">else</span> right=l;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;res; res.<span class="built_in">push_back</span>(left);res.<span class="built_in">push_back</span>(right);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//第二种方法使用STL，注意边界</span></span><br><span class="line">        left = <span class="built_in">lower_bound</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>(),target)-nums.<span class="built_in">begin</span>();</span><br><span class="line">        right = <span class="built_in">upper_bound</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>(),target)-nums.<span class="built_in">begin</span>()<span class="number">-1</span>;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;res2;</span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>()&gt;<span class="number">0</span> &amp;&amp; left&gt;=<span class="number">0</span> &amp;&amp;left &lt;nums.<span class="built_in">size</span>() &amp;&amp; nums[left]==target)res2.<span class="built_in">push_back</span>(left);<span class="keyword">else</span> res2.<span class="built_in">push_back</span>(<span class="number">-1</span>);</span><br><span class="line">        <span class="keyword">if</span>(nums.<span class="built_in">size</span>()&gt;<span class="number">0</span> &amp;&amp; right &gt;=<span class="number">0</span> &amp;&amp; right &lt; nums.<span class="built_in">size</span>() &amp;&amp;nums[right]==target)res2.<span class="built_in">push_back</span>(right);<span class="keyword">else</span> res2.<span class="built_in">push_back</span>(<span class="number">-1</span>);</span><br><span class="line">        <span class="keyword">return</span> res2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="找到-k-个最接近的元素"><a class="markdownIt-Anchor" href="#找到-k-个最接近的元素"></a> <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/find-k-closest-elements/">找到 K 个最接近的元素</a></h4>
-<h4 id="方法一二分查找双指针"><a class="markdownIt-Anchor" href="#方法一二分查找双指针"></a> 方法一：二分查找+双指针</h4>
-<p>首先找到&lt;=target的右边界，确定pos之后</p>
-<p>令left=pos-k,right=pos+k，则我们需要的数字必定在这里面。分成三类讨论</p>
-<ol>
-<li>left&lt;0 left++</li>
-<li>right&gt;=arr.size() right–;</li>
-<li>在数组范围内，判断x与arr[left]和arr[right]的距离，left近就right–否则left++</li>
-</ol>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">findClosestElements</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; arr, <span class="type">int</span> k, <span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> l = <span class="number">0</span>,r = arr.<span class="built_in">size</span>()<span class="number">-1</span>;<span class="type">int</span> pos;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;<span class="comment">//&lt;=target 的右边界</span></span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(arr[mid]&lt;=x)l=mid;<span class="keyword">else</span> r=mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        pos = l;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;res;</span><br><span class="line">        </span><br><span class="line">        <span class="type">int</span> left = pos-k,right=pos+k;</span><br><span class="line">        <span class="keyword">while</span>(right-left+<span class="number">1</span>&gt;k)&#123;</span><br><span class="line">            <span class="keyword">if</span>(left&lt;<span class="number">0</span>)&#123;left++;<span class="keyword">continue</span>;&#125;</span><br><span class="line">            <span class="keyword">if</span>(right&gt;=arr.<span class="built_in">size</span>())&#123;right--;<span class="keyword">continue</span>;&#125;</span><br><span class="line">            <span class="keyword">if</span>(arr[right]-x&gt;=x-arr[left])right--;<span class="keyword">else</span> left++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=left;i&lt;=right;i++)res.<span class="built_in">push_back</span>(arr[i]);</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="方法二排序"><a class="markdownIt-Anchor" href="#方法二排序"></a> 方法二：排序</h4>
-<p>将所有的数字和x的差值进行排序，取前k个。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">//static int target;</span></span><br><span class="line">    <span class="comment">//static bool cmp(int &amp; a,int &amp; b)&#123;</span></span><br><span class="line">        <span class="comment">//if(abs(a-target)==abs(b-target))return a&lt;b;else return abs(a-target)&lt;abs(b-target);</span></span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">findClosestElements</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; arr, <span class="type">int</span> k, <span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="built_in">sort</span>(arr.<span class="built_in">begin</span>(),arr.<span class="built_in">end</span>(),[&amp;x](<span class="type">int</span> &amp;a,<span class="type">int</span> &amp;b)-&gt; <span class="type">bool</span>&#123;<span class="keyword">if</span>(<span class="built_in">abs</span>(a-x)==<span class="built_in">abs</span>(b-x))<span class="keyword">return</span> a&lt;b; <span class="keyword">else</span> <span class="keyword">return</span> <span class="built_in">abs</span>(a-x)&lt;<span class="built_in">abs</span>(b-x);&#125;);     <span class="comment">//函数式编程，省去了引用static变量和初始化的过程</span></span><br><span class="line">        <span class="comment">//this-&gt;target = x;</span></span><br><span class="line">        <span class="comment">//sort(arr.begin(),arr.end(),cmp);</span></span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;res;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;k;i++)res.<span class="built_in">emplace_back</span>(arr[i]);</span><br><span class="line">        <span class="built_in">sort</span>(res.<span class="built_in">begin</span>(),res.<span class="built_in">end</span>());</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//int Solution::target = 0; //类型 所在类：：静态变量名 = 初始化值。</span></span><br></pre></td></tr></table></figure>
-<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
-<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/kyoner/p/11080078.html">https://www.cnblogs.com/kyoner/p/11080078.html</a></p>
-<p>《蓝书》P26</p>
+        <p>删除树中的节点时，删除过程将按照后序遍历的顺序进行。 也就是说，当你删除一个节点时，你将首先删除它的左节点和它的右边的节点，然后再删除节点本身。另外，后序在数学表达中被广泛使用。 编写程序来解析后缀表示法更为容易。</p>
+<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/mathematical_expression.png" alt="img" /></p>
+<p>可以使用中序遍历轻松找出原始表达式。 但是程序处理这个表达式时并不容易，因为你必须检查操作的优先级。</p>
+<p>如果你想对这棵树进行后序遍历，使用栈来处理表达式会变得更加容易。 每遇到一个操作符，就可以从栈中弹出栈顶的两个元素，计算并将结果返回到栈中。</p>
+<h2 id="遍历"><a class="markdownIt-Anchor" href="#遍历"></a> 遍历</h2>
+<h3 id="x序遍历"><a class="markdownIt-Anchor" href="#x序遍历"></a> X序遍历</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">preorder</span><span class="params">(TreeNode* cur,vector&lt;<span class="type">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    res.<span class="built_in">push_back</span>(cur-&gt;val); <span class="comment">//不同位置表示不同序的遍历</span></span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;left,res);</span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;right,res);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="层次遍历"><a class="markdownIt-Anchor" href="#层次遍历"></a> 层次遍历</h3>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">levelOrder</span>(TreeNode* root) &#123;</span><br><span class="line">    vector&lt;TreeNode*&gt;q; vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;res; q.<span class="built_in">push_back</span>(root); <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(cnt&lt;q.<span class="built_in">size</span>())&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;tmp;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=cnt;i&lt;q.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(q[i]!=<span class="literal">nullptr</span>)tmp.<span class="built_in">push_back</span>(q[i]-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(tmp.<span class="built_in">size</span>())res.<span class="built_in">push_back</span>(tmp);</span><br><span class="line">        <span class="type">int</span> bound = q.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(cnt;cnt&lt;bound;cnt++)<span class="keyword">if</span>(q[cnt]!=<span class="literal">nullptr</span>)q.<span class="built_in">push_back</span>(q[cnt]-&gt;left),q.<span class="built_in">push_back</span>(q[cnt]-&gt;right);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="自顶向下"><a class="markdownIt-Anchor" href="#自顶向下"></a> 自顶向下</h3>
+<p>“自顶向下” 意味着在每个递归层级，我们将首先访问节点来计算一些值，并在递归调用函数时将这些值传递到子节点。 所以 “自顶向下” 的解决方案可以被认为是一种前序遍历。 具体来说，递归函数 top_down(root, params) 的原理是这样的：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">update the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- params</span></span><br><span class="line">left_ans = <span class="built_in">top_down</span>(root.left, left_params)		<span class="comment">// left_params &lt;-- root.val, params</span></span><br><span class="line">right_ans = <span class="built_in">top_down</span>(root.right, right_params)	<span class="comment">// right_params &lt;-- root.val, params</span></span><br><span class="line"><span class="keyword">return</span> the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- left_ans, right_ans</span></span><br></pre></td></tr></table></figure>
+<h3 id="自底向上"><a class="markdownIt-Anchor" href="#自底向上"></a> 自底向上</h3>
+<p>“自底向上” 是另一种递归方法。 在每个递归层次上，我们首先对所有子节点递归地调用函数，然后根据返回值和根节点本身的值得到答案。 这个过程可以看作是后序遍历的一种。 通常， “自底向上” 的递归函数 bottom_up(root) 为如下所示：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">left_ans = <span class="built_in">bottom_up</span>(root.left)			<span class="comment">// call function recursively for left child</span></span><br><span class="line">right_ans = <span class="built_in">bottom_up</span>(root.right)		<span class="comment">// call function recursively for right child</span></span><br><span class="line"><span class="keyword">return</span> answers                           <span class="comment">// answer &lt;-- left_ans, right_ans, root.val</span></span><br></pre></td></tr></table></figure>
+<h4 id="求树的最大深度"><a class="markdownIt-Anchor" href="#求树的最大深度"></a> 求树的最大深度</h4>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> answer=<span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">topDown</span><span class="params">(TreeNode* cur,<span class="type">int</span> level)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;left,level+<span class="number">1</span>);</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;right,level+<span class="number">1</span>);</span><br><span class="line">    answer = <span class="built_in">max</span>(answer,level);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">bottomUp</span><span class="params">(TreeNode* cur)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(<span class="built_in">bottomUp</span>(cur-&gt;left),<span class="built_in">bottomUp</span>(cur-&gt;right))+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -394,17 +368,17 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/83a4cde7/" rel="bookmark">并查集模板</a></div>
-    </li>
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/515818b4/" rel="bookmark">离散化</a></div>
     </li>
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/8f4b279/" rel="bookmark">前缀和、差分与树状数组</a></div>
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/83a4cde7/" rel="bookmark">并查集模板</a></div>
+    </li>
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="https://blog.zhumeng2021.cn/posts/8f4b279/" rel="bookmark">前缀和、差分与树状数组、线段树基础</a></div>
     </li>
     <li class="popular-posts-item">
       
@@ -429,7 +403,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://blog.zhumeng2021.cn/posts/99d9a14f/" title="二分算法详解">https://blog.zhumeng2021.cn/posts/99d9a14f/</a>
+      <a href="https://blog.zhumeng2021.cn/posts/99d9a14f/" title="二叉树基础详解">https://blog.zhumeng2021.cn/posts/99d9a14f/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -438,21 +412,21 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/encryptalg/" rel="tag"><i class="fa fa-tag"></i> encryptalg</a>
               <a href="/tags/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 基础算法</a>
+              <a href="/tags/encryptalg/" rel="tag"><i class="fa fa-tag"></i> encryptalg</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/3e175728/" rel="prev" title="【每日】1984. 学生分数的最小差值">
-                  <i class="fa fa-chevron-left"></i> 【每日】1984. 学生分数的最小差值
+                <a href="/posts/27cf2ee3/" rel="prev" title="cpp中指定默认参数的位置">
+                  <i class="fa fa-chevron-left"></i> cpp中指定默认参数的位置
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/48f31485/" rel="next" title="【每日】1020. 飞地的数量">
-                  【每日】1020. 飞地的数量 <i class="fa fa-chevron-right"></i>
+                <a href="/posts/603c8f61/" rel="next" title="常用stl算法总结">
+                  常用stl算法总结 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -488,14 +462,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">28k</span>
+    <span title="站点总字数">30k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">28 分钟</span>
+    <span title="站点阅读时长">30 分钟</span>
   </span>
 </div>
 <span class="post-meta-break"></span>
