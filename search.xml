@@ -1,68 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test_code</title>
-    <url>/posts/726c1a57/</url>
-    <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
-<h3 id="dqwdwq"><a class="markdownIt-Anchor" href="#dqwdwq"></a> dqwdwq</h3>
-<p><mark>dwqd</mark><br />
-<img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/3-1Q113131610L7.gif" alt="顾客购物程序的类图" /></p>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∑</mo><mi>x</mi><mrow><mi>s</mi><mi>d</mi></mrow></msubsup><mfrac><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>+</mo><mi>a</mi></mrow><mi>α</mi></mfrac></mrow><annotation encoding="application/x-tex">\sum_{x}^{sd}{\frac{a}{b}+{a}\over{\alpha}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.37988em;vertical-align:-0.345em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9890079999999999em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.03488em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.0037em;">α</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.5508em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6915428571428572em;"><span style="top:-2.656em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span style="top:-3.2255000000000003em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line mtight" style="border-bottom-width:0.049em;"></span></span><span style="top:-3.384em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.344em;"><span></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<a id="more"></a>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>∗</mo><msup><mi>b</mi><mn>2</mn></msup><mspace width="1em"/><mo stretchy="false">(</mo><mi>b</mi><mi>ω</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">a*b^2 \quad (b \omega)
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span><span class="mclose">)</span></span></span></span></span></p>
-<p><code>dwqdnjk</code><br />
-<code>test for ms code</code></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * @Descripttion: 111 https://leetcode.com/discuss/interview-question/1488563/microsoft-on-campus-2021-india</span></span><br><span class="line"><span class="comment"> * @version: </span></span><br><span class="line"><span class="comment"> * @Author: xxh</span></span><br><span class="line"><span class="comment"> * @Date: 2022-01-23</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;dp;</span><br><span class="line"><span class="type">int</span> dd[<span class="number">100</span>][<span class="number">2</span>][<span class="number">200</span>]=&#123;<span class="number">-1</span>&#125; ;<span class="comment">//pos - -x/y - value</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">dfs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> rx,<span class="type">int</span> ry,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(pos&gt;=n) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(dp[pos][<span class="built_in">abs</span>(rx-ry)]!=<span class="number">-1</span>)<span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">    <span class="type">int</span> v1=<span class="number">0</span>,v2=<span class="number">0</span>,v3=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(rx&gt;=h[pos])v1 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx-h[pos],ry,n);</span><br><span class="line">    <span class="keyword">if</span>(ry&gt;=h[pos]) v2 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry-h[pos],n);</span><br><span class="line">    v3=<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry,n);</span><br><span class="line">    dp[pos][<span class="built_in">abs</span>(rx-ry)] = <span class="built_in">max</span>(v1,<span class="built_in">max</span>(v2,v3));</span><br><span class="line">    <span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> x,<span class="type">int</span> y,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    dd[<span class="number">0</span>][<span class="number">0</span>][x]=dd[<span class="number">0</span>][<span class="number">1</span>][y]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = x;j&gt;=h[i<span class="number">-1</span>];j--) <span class="comment">//x</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=y;k&gt;=<span class="number">0</span>;k--)&#123; <span class="comment">//y</span></span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">0</span>][j]!=<span class="number">-1</span>) &#123;</span><br><span class="line">                    dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]= <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]+dd[i<span class="number">-1</span>][<span class="number">0</span>][j]+<span class="number">1</span>,dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line">                    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;j&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]&lt;&lt;endl;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = y;j&gt;=h[i<span class="number">-1</span>];j--)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=x;k&gt;=<span class="number">0</span>;k--)&#123;</span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">1</span>][j]!=<span class="number">-1</span>) dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]] = <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]+dd[i<span class="number">-1</span>][<span class="number">1</span>][j]+<span class="number">1</span>,dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> mx =<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][0][i];</span></span><br><span class="line">        mx = <span class="built_in">max</span>(mx,dd[n<span class="number">-1</span>][<span class="number">0</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="type">int</span> my = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][1][i];</span></span><br><span class="line">        my = <span class="built_in">max</span>(my,dd[n<span class="number">-1</span>][<span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(mx,my);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt;h=&#123;<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>&#125;;</span><br><span class="line">    <span class="type">int</span> x = <span class="number">8</span>,y=<span class="number">9</span>;</span><br><span class="line">    <span class="type">int</span> n = h.<span class="built_in">size</span>();</span><br><span class="line">    dp.<span class="built_in">resize</span>(n,<span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="built_in">max</span>(x,y)+<span class="number">1</span>,<span class="number">-1</span>));</span><br><span class="line">    <span class="built_in">memset</span>(dd,<span class="number">0xff</span>,<span class="built_in">sizeof</span>(dd));</span><br><span class="line">    cout&lt;&lt;<span class="built_in">f</span>(h,<span class="number">0</span>,x,y,n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>test</category>
-        <category>面试题</category>
-        <category>MS</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-        <tag>dp</tag>
-        <tag>ms面试题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp博客汇总</title>
-    <url>/posts/26f80d45/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="48d4c2071a98261b91bf0f24d970df9a5ee3e1bc9449d012e30537c624463818">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad26eb3a75cba0265537fed2ef182633562904235b0284ffd7da53a6cf40d6b9c9fdc57a1e72ccf74d82d900b007763c0fa11de3777c888133a80ebcf422c34dfceae367d70f6a29a85a916cf04b3ed2f82eeb30bbe9fa60970f3db4e55dcb8b5662</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-blink">
-      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp资源</category>
-      </categories>
-      <tags>
-        <tag>cpp资源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cpp中指定默认参数的位置</title>
-    <url>/posts/27cf2ee3/</url>
-    <content><![CDATA[<p>wu</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo setups</title>
     <url>/posts/b763a0b1/</url>
     <content><![CDATA[<h3 id="centos-关闭selinux及防火墙"><a class="markdownIt-Anchor" href="#centos-关闭selinux及防火墙"></a> centos 关闭SELINUX及防火墙</h3>
@@ -109,230 +47,114 @@
       </tags>
   </entry>
   <entry>
-    <title>cpp中的const</title>
-    <url>/posts/4bf79020/</url>
-    <content><![CDATA[<h2 id="cpp中的const更像是编译阶段的define"><a class="markdownIt-Anchor" href="#cpp中的const更像是编译阶段的define"></a> cpp中的<code>const</code>更像是编译阶段的<code>#define</code></h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> m = <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n = m;</span><br></pre></td></tr></table></figure>
+    <title>test_code</title>
+    <url>/posts/726c1a57/</url>
+    <content><![CDATA[<h2 id="三维dp"><a class="markdownIt-Anchor" href="#三维dp"></a> 三维dp</h2>
+<h3 id="dqwdwq"><a class="markdownIt-Anchor" href="#dqwdwq"></a> dqwdwq</h3>
+<p><mark>dwqd</mark><br />
+<img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/3-1Q113131610L7.gif" alt="顾客购物程序的类图" /></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∑</mo><mi>x</mi><mrow><mi>s</mi><mi>d</mi></mrow></msubsup><mfrac><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>+</mo><mi>a</mi></mrow><mi>α</mi></mfrac></mrow><annotation encoding="application/x-tex">\sum_{x}^{sd}{\frac{a}{b}+{a}\over{\alpha}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.37988em;vertical-align:-0.345em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9890079999999999em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">s</span><span class="mord mathdefault mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.03488em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.0037em;">α</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.5508em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mopen nulldelimiter sizing reset-size3 size6"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6915428571428572em;"><span style="top:-2.656em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span style="top:-3.2255000000000003em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line mtight" style="border-bottom-width:0.049em;"></span></span><span style="top:-3.384em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.344em;"><span></span></span></span></span></span><span class="mclose nulldelimiter sizing reset-size3 size6"></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">a</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<a id="more"></a>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>∗</mo><msup><mi>b</mi><mn>2</mn></msup><mspace width="1em"/><mo stretchy="false">(</mo><mi>b</mi><mi>ω</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">a*b^2 \quad (b \omega)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.1141079999999999em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mopen">(</span><span class="mord mathdefault">b</span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span><span class="mclose">)</span></span></span></span></span></p>
+<p><code>dwqdnjk</code><br />
+<code>test for ms code</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * @Descripttion: 111 https://leetcode.com/discuss/interview-question/1488563/microsoft-on-campus-2021-india</span></span><br><span class="line"><span class="comment"> * @version: </span></span><br><span class="line"><span class="comment"> * @Author: xxh</span></span><br><span class="line"><span class="comment"> * @Date: 2022-01-23</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;dp;</span><br><span class="line"><span class="type">int</span> dd[<span class="number">100</span>][<span class="number">2</span>][<span class="number">200</span>]=&#123;<span class="number">-1</span>&#125; ;<span class="comment">//pos - -x/y - value</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">dfs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> rx,<span class="type">int</span> ry,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(pos&gt;=n) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(dp[pos][<span class="built_in">abs</span>(rx-ry)]!=<span class="number">-1</span>)<span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">    <span class="type">int</span> v1=<span class="number">0</span>,v2=<span class="number">0</span>,v3=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(rx&gt;=h[pos])v1 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx-h[pos],ry,n);</span><br><span class="line">    <span class="keyword">if</span>(ry&gt;=h[pos]) v2 = <span class="number">1</span>+<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry-h[pos],n);</span><br><span class="line">    v3=<span class="built_in">dfs</span>(h,pos+<span class="number">1</span>,rx,ry,n);</span><br><span class="line">    dp[pos][<span class="built_in">abs</span>(rx-ry)] = <span class="built_in">max</span>(v1,<span class="built_in">max</span>(v2,v3));</span><br><span class="line">    <span class="keyword">return</span> dp[pos][<span class="built_in">abs</span>(rx-ry)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; h,<span class="type">int</span> pos,<span class="type">int</span> x,<span class="type">int</span> y,<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    dd[<span class="number">0</span>][<span class="number">0</span>][x]=dd[<span class="number">0</span>][<span class="number">1</span>][y]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = x;j&gt;=h[i<span class="number">-1</span>];j--) <span class="comment">//x</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=y;k&gt;=<span class="number">0</span>;k--)&#123; <span class="comment">//y</span></span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">0</span>][j]!=<span class="number">-1</span>) &#123;</span><br><span class="line">                    dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]= <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">1</span>][k]+dd[i<span class="number">-1</span>][<span class="number">0</span>][j]+<span class="number">1</span>,dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line">                    cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;j&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;dd[i][<span class="number">0</span>][j-h[i<span class="number">-1</span>]]&lt;&lt;endl;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = y;j&gt;=h[i<span class="number">-1</span>];j--)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=x;k&gt;=<span class="number">0</span>;k--)&#123;</span><br><span class="line">                <span class="keyword">if</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]!=<span class="number">-1</span>&amp;&amp;dd[i<span class="number">-1</span>][<span class="number">1</span>][j]!=<span class="number">-1</span>) dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]] = <span class="built_in">max</span>(dd[i<span class="number">-1</span>][<span class="number">0</span>][k]+dd[i<span class="number">-1</span>][<span class="number">1</span>][j]+<span class="number">1</span>,dd[i][<span class="number">1</span>][j-h[i<span class="number">-1</span>]]);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> mx =<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][0][i];</span></span><br><span class="line">        mx = <span class="built_in">max</span>(mx,dd[n<span class="number">-1</span>][<span class="number">0</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="type">int</span> my = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">        <span class="comment">//cout&lt;&lt;dd[n-1][1][i];</span></span><br><span class="line">        my = <span class="built_in">max</span>(my,dd[n<span class="number">-1</span>][<span class="number">1</span>][i]);</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(mx,my);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt;h=&#123;<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">4</span>&#125;;</span><br><span class="line">    <span class="type">int</span> x = <span class="number">8</span>,y=<span class="number">9</span>;</span><br><span class="line">    <span class="type">int</span> n = h.<span class="built_in">size</span>();</span><br><span class="line">    dp.<span class="built_in">resize</span>(n,<span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="built_in">max</span>(x,y)+<span class="number">1</span>,<span class="number">-1</span>));</span><br><span class="line">    <span class="built_in">memset</span>(dd,<span class="number">0xff</span>,<span class="built_in">sizeof</span>(dd));</span><br><span class="line">    cout&lt;&lt;<span class="built_in">f</span>(h,<span class="number">0</span>,x,y,n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>test</category>
+        <category>面试题</category>
+        <category>MS</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>dp</tag>
+        <tag>ms面试题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】1020. 飞地的数量</title>
+    <url>/posts/48f31485/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
 <blockquote>
-<p>在C语言中，编译器会先在m的内存中取出数据赋值给n；</p>
-<p>在cpp中，编译器直接将10赋值给n，没有读取内存的操作。</p>
+<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
 </blockquote>
-<p><code>#define</code>是在预处理阶段替换，常量是在编译阶段替换。提高了程序执行的效率，缺点是不能反映内存变化。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> n =<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span>* p = (<span class="type">int</span>*)&amp;n;</span><br><span class="line">(*p) = <span class="number">100</span>;</span><br><span class="line">cout&lt;&lt;n&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;(*p)&lt;&lt;endl;</span><br><span class="line"><span class="comment">//输出为10 100</span></span><br></pre></td></tr></table></figure>
-<p>将代码放到<code>.c</code>文件中，以C语言的方式编译，运行结果为<code>99</code>。再将代码放到<code>.cpp</code>文件中，以C<ins>的方式编译，运行结果就变成了<code>10</code>。这种差异正是由于C和C</ins>对 const 的处理方式不同造成的。</p>
-<h2 id="cpp中全局const变量可见范围是当前文件"><a class="markdownIt-Anchor" href="#cpp中全局const变量可见范围是当前文件"></a> cpp中全局const变量可见范围是当前文件</h2>
-<p>c语言中：<mark>全局变量的作用域是当前文件，但是在其他文件中也是可见的，使用<code>extern</code>声明后就可以使用</mark></p>
-<p>cpp语言中：<mark>const变量的作用域是当前文件，在其他文件中不可见</mark></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//const int n = 10;</span></span><br><span class="line"><span class="comment">//int n = 10;</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">func</span><span class="params">()</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    func();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main: %d\n&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">extern</span> <span class="type">int</span> n; </span><br><span class="line"><span class="type">void</span> <span class="title function_">func</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;module: %d\n&quot;</span>, n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>若为<code>int n=10;</code>无论cpp还是c语言均编译通过</p>
-<p>若为<code>const int n=10;</code>，cpp编译失败（因为对其他文件不可见），c语言编译通过。</p>
-</blockquote>
-<h3 id="将const变量放入头文件中"><a class="markdownIt-Anchor" href="#将const变量放入头文件中"></a> 将const变量放入头文件中</h3>
-<p><mark>由于 C++ 中全局 const 变量的可见范围仅限于当前源文件，所以可以将它放在头文件中，这样即使头文件被包含多次也不会出错</mark></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//module.h</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">func</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//module.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;module.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">func</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;module: %d\n&quot;</span>, n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//main.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;module.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">func</span>();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main: %d\n&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$ </span><span class="language-bash">g++ main.cpp module.cpp -o main &amp;&amp; main</span></span><br><span class="line"></span><br><span class="line">module: 10</span><br><span class="line">main: 10</span><br></pre></td></tr></table></figure>
-<p>C和C<ins>中全局 const 变量的作用域相同，都是当前文件，不同的是它们的可见范围：C语言中 const 全局变量的可见范围是整个程序，在其他文件中使用 extern 声明后就可以使用；而C</ins>中 const 全局变量的可见范围仅限于当前文件，在其他文件中不可见，所以它可以定义在头文件中，多次引入后也不会出错。</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>decltype关键字</title>
-    <url>/posts/6d46b940/</url>
-    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
-<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
-<p>解决难以拼写的类型名，有以下两个方案：</p>
-<ol>
-<li>使用类型别名技术</li>
-<li>使用auto和decltype</li>
-</ol>
-<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
-<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
-<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
-<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
-<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Lambda表达式</title>
-    <url>/posts/e9ee750c/</url>
-    <content><![CDATA[<h3 id="声明lambda表达式"><a class="markdownIt-Anchor" href="#声明lambda表达式"></a> 声明Lambda表达式</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list) <span class="keyword">mutable</span> exception-&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
-<ol>
-<li>capture list： 捕获外部变量的列表</li>
-<li>params list：形参列表</li>
-<li>mutable指示符：是否可以修改捕获的变量</li>
-<li>exception：异常设定</li>
-<li>return type：返回类型</li>
-<li>function body：函数体</li>
-</ol>
-<h4 id="格式1"><a class="markdownIt-Anchor" href="#格式1"></a> 格式1</h4>
-<p>声明了const类型的表达式，函数中不能修改捕获列表中的值（引用传递除外）</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list) -&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
-<h4 id="格式2"><a class="markdownIt-Anchor" href="#格式2"></a> 格式2</h4>
-<p>省略了返回值的类型，编译器自动推断，若：</p>
-<ol>
-<li>
-<p>含有return，则类型由return决定</p>
-</li>
-<li>
-<p>不含有return，类型为void</p>
-</li>
-</ol>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list)  &#123; function body &#125;</span><br></pre></td></tr></table></figure>
-<h4 id="格式3"><a class="markdownIt-Anchor" href="#格式3"></a> 格式3</h4>
-<p>无参数函数</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] &#123; function body &#125;</span><br></pre></td></tr></table></figure>
-<h3 id="捕获外部变量"><a class="markdownIt-Anchor" href="#捕获外部变量"></a> 捕获外部变量</h3>
-<table>
-<thead>
-<tr>
-<th>捕获形式</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>[]</td>
-<td>不捕获任何外部变量</td>
-</tr>
-<tr>
-<td>[变量名…]</td>
-<td>默认以值形式捕获多个指定外部变量，如果引用捕获，需要显式声明<code>&amp;</code>说明符</td>
-</tr>
-<tr>
-<td>[this]</td>
-<td>值形式捕获this指针</td>
-</tr>
-<tr>
-<td>[=]</td>
-<td>值形式捕获外部所有变量</td>
-</tr>
-<tr>
-<td>[&amp;]</td>
-<td>引用方式捕获外部所有变量</td>
-</tr>
-<tr>
-<td>[=,&amp;x]</td>
-<td>变量x用引用方式捕获，其余变量以传值形式捕获</td>
-</tr>
-<tr>
-<td>[&amp;,x]</td>
-<td>变量x以传值方式捕获，其余变量以引用形式捕获</td>
-</tr>
-</tbody>
-</table>
-<h3 id="lambda表达式的参数"><a class="markdownIt-Anchor" href="#lambda表达式的参数"></a> Lambda表达式的参数</h3>
-<ol>
-<li>参数列表中不能用默认参数</li>
-<li>不支持可变长度的参数</li>
-<li>所有参数必须有参数名</li>
-</ol>
-<h3 id="lambda表达式的类型"><a class="markdownIt-Anchor" href="#lambda表达式的类型"></a> Lambda表达式的类型</h3>
-<p>Lambda 函数是一个依赖于实现的函数对象类型,这个类型的名字只有编译器知道. 如果用户想把 lambda 函数做为一个参数来传递, 那么形参的类型必须是模板类型或者必须能创建一个 <mark>std::function</mark> 类似的对象去捕获 lambda 函数.使用 auto 关键字可以帮助存储 Lambda 函数。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> my_lambda_func = [&amp;](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="keyword">auto</span> my_onheap_lambda_func = <span class="keyword">new</span> <span class="built_in">auto</span>([=](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;);</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">eval</span><span class="params">(std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f,<span class="type">double</span> x=<span class="number">2.0</span>)</span></span>&#123;<span class="keyword">return</span> <span class="built_in">f</span>(x);&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f0 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> <span class="number">1</span>;&#125;;</span><br><span class="line">    <span class="keyword">auto</span> f1 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x;&#125;;</span><br><span class="line">    <span class="keyword">decltype</span>(f0) fa[<span class="number">3</span>]=&#123;f0,f1,[](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;&#125;;</span><br><span class="line">    std::vector&lt;std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; &gt; fv = &#123;f0,f1&#125;;</span><br><span class="line">    fv.<span class="built_in">push_back</span>([](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;fv.<span class="built_in">size</span>();i++) std::cout&lt;&lt;fv[i](<span class="number">2.0</span>)&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>一个没有指定任何捕获的 lambda 函数,可以显式转换成一个具有相同声明形式函数指针.所以,像下面这样做是合法的:</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> a_lambda_func = [](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="built_in">void</span> (*func_ptr)(<span class="type">int</span>) = a_lambda_func;</span><br><span class="line"><span class="built_in">func_ptr</span>(<span class="number">4</span>); <span class="comment">// calls the lambda</span></span><br></pre></td></tr></table></figure>
-<p>但是<mark>带捕获的lambda是不能够作为函数指针进行参数传递</mark>。</p>
-<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
-<p><a href="https://www.cnblogs.com/DswCnblog/p/5629165.html">https://www.cnblogs.com/DswCnblog/p/5629165.html</a></p>
-<p><a href="https://www.cnblogs.com/jimodetiantang/p/9016826.html">https://www.cnblogs.com/jimodetiantang/p/9016826.html</a></p>
-<p>关于捕获和不捕获的lambda转换汇编代码分析</p>
-<p><a href="https://blog.csdn.net/qq_36419971/article/details/117396419">https://blog.csdn.net/qq_36419971/article/details/117396419</a></p>
-]]></content>
-      <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
-      </categories>
-      <tags>
-        <tag>cpp语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二叉树基础详解</title>
-    <url>/posts/99d9a14f/</url>
-    <content><![CDATA[<p>删除树中的节点时，删除过程将按照后序遍历的顺序进行。 也就是说，当你删除一个节点时，你将首先删除它的左节点和它的右边的节点，然后再删除节点本身。另外，后序在数学表达中被广泛使用。 编写程序来解析后缀表示法更为容易。</p>
-<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/mathematical_expression.png" alt="img" /></p>
-<p>可以使用中序遍历轻松找出原始表达式。 但是程序处理这个表达式时并不容易，因为你必须检查操作的优先级。</p>
-<p>如果你想对这棵树进行后序遍历，使用栈来处理表达式会变得更加容易。 每遇到一个操作符，就可以从栈中弹出栈顶的两个元素，计算并将结果返回到栈中。</p>
-<h2 id="遍历"><a class="markdownIt-Anchor" href="#遍历"></a> 遍历</h2>
-<h3 id="x序遍历"><a class="markdownIt-Anchor" href="#x序遍历"></a> X序遍历</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">preorder</span><span class="params">(TreeNode* cur,vector&lt;<span class="type">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    res.<span class="built_in">push_back</span>(cur-&gt;val); <span class="comment">//不同位置表示不同序的遍历</span></span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;left,res);</span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;right,res);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="层次遍历"><a class="markdownIt-Anchor" href="#层次遍历"></a> 层次遍历</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">levelOrder</span>(TreeNode* root) &#123;</span><br><span class="line">    vector&lt;TreeNode*&gt;q; vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;res; q.<span class="built_in">push_back</span>(root); <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(cnt&lt;q.<span class="built_in">size</span>())&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;tmp;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=cnt;i&lt;q.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(q[i]!=<span class="literal">nullptr</span>)tmp.<span class="built_in">push_back</span>(q[i]-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(tmp.<span class="built_in">size</span>())res.<span class="built_in">push_back</span>(tmp);</span><br><span class="line">        <span class="type">int</span> bound = q.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(cnt;cnt&lt;bound;cnt++)<span class="keyword">if</span>(q[cnt]!=<span class="literal">nullptr</span>)q.<span class="built_in">push_back</span>(q[cnt]-&gt;left),q.<span class="built_in">push_back</span>(q[cnt]-&gt;right);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="自顶向下"><a class="markdownIt-Anchor" href="#自顶向下"></a> 自顶向下</h3>
-<p>“自顶向下” 意味着在每个递归层级，我们将首先访问节点来计算一些值，并在递归调用函数时将这些值传递到子节点。 所以 “自顶向下” 的解决方案可以被认为是一种前序遍历。 具体来说，递归函数 top_down(root, params) 的原理是这样的：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">update the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- params</span></span><br><span class="line">left_ans = <span class="built_in">top_down</span>(root.left, left_params)		<span class="comment">// left_params &lt;-- root.val, params</span></span><br><span class="line">right_ans = <span class="built_in">top_down</span>(root.right, right_params)	<span class="comment">// right_params &lt;-- root.val, params</span></span><br><span class="line"><span class="keyword">return</span> the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- left_ans, right_ans</span></span><br></pre></td></tr></table></figure>
-<h3 id="自底向上"><a class="markdownIt-Anchor" href="#自底向上"></a> 自底向上</h3>
-<p>“自底向上” 是另一种递归方法。 在每个递归层次上，我们首先对所有子节点递归地调用函数，然后根据返回值和根节点本身的值得到答案。 这个过程可以看作是后序遍历的一种。 通常， “自底向上” 的递归函数 bottom_up(root) 为如下所示：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">left_ans = <span class="built_in">bottom_up</span>(root.left)			<span class="comment">// call function recursively for left child</span></span><br><span class="line">right_ans = <span class="built_in">bottom_up</span>(root.right)		<span class="comment">// call function recursively for right child</span></span><br><span class="line"><span class="keyword">return</span> answers                           <span class="comment">// answer &lt;-- left_ans, right_ans, root.val</span></span><br></pre></td></tr></table></figure>
-<h4 id="求树的最大深度"><a class="markdownIt-Anchor" href="#求树的最大深度"></a> 求树的最大深度</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> answer=<span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">topDown</span><span class="params">(TreeNode* cur,<span class="type">int</span> level)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;left,level+<span class="number">1</span>);</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;right,level+<span class="number">1</span>);</span><br><span class="line">    answer = <span class="built_in">max</span>(answer,level);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">bottomUp</span><span class="params">(TreeNode* cur)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(<span class="built_in">bottomUp</span>(cur-&gt;left),<span class="built_in">bottomUp</span>(cur-&gt;right))+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
-        <category>基础算法</category>
-        <category>二叉树</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>dfs</category>
       </categories>
       <tags>
-        <tag>基础算法</tag>
-        <tag>encryptalg</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
-    <title>unordered_map set自定义对象的hash</title>
-    <url>/posts/f17b9616/</url>
-    <content><![CDATA[<p><code>unordered_map/set</code>使用hash进行存储，因此存储自定义对象前，必须：</p>
-<ol>
-<li><code>hash</code>告知此容器如何生成hash值，</li>
-<li><code>equal_to</code>告知容器当出现hash冲突时，如何区分hash值相同的不同对象。</li>
-</ol>
-<p><strong>具体有4种方案</strong>：</p>
-<ol>
-<li>定义两个函数对象ObjectHash，以及ObjectCmp，分别实现对Object进行hash，以及比较两个对象是否相同。</li>
-<li>定义两个普通的函数，实现hash以及对象比较，与<mark>1</mark>不同的是普通函数在构建<code>unordered_map/set</code>时，需要decltype来减少声明它的类型（或手动指定，<code>std::function &lt;size_t(const Object&amp;)&gt;</code>说明hash类型，<code>std::function &lt;bool(const Object&amp;, const Object&amp;)&gt;</code>说明比较cmp类型</li>
-<li>定义两个lambda表达式（仿函数），与2类似</li>
-<li>对Object对象进行模板特化定制</li>
-</ol>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"># unordered_set的声明</span><br><span class="line"><span class="keyword">template</span>&lt;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Key</span>, <span class="comment">//类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Hash</span> = std::hash&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> KeyEqual = std::equal_to&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Allocator = std::allocator&lt;Key&gt;</span><br><span class="line">&gt; <span class="keyword">class</span> unordered_set;</span><br><span class="line"></span><br><span class="line">#unordered_map的声明</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">Key</span>, <span class="comment">//key的类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Ty</span>, <span class="comment">//val的类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Hash</span> = std::hash&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Pred = std::equal_to&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Alloc = std::allocator&lt;std::pair&lt;<span class="type">const</span> Key, Ty&gt; &gt; &gt;</span><br><span class="line">    <span class="keyword">class</span> unordered_map;</span><br><span class="line">&gt; <span class="keyword">class</span> <span class="title class_">unordered_map</span></span><br></pre></td></tr></table></figure>
-<h3 id="示例"><a class="markdownIt-Anchor" href="#示例"></a> 示例</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"># 自定义<span class="keyword">struct</span>的类型</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Object</span>&#123;</span><br><span class="line">    string name;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h4 id="定义两个函数对象"><a class="markdownIt-Anchor" href="#定义两个函数对象"></a> 定义两个函数对象</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">ObjectHash</span>&#123;</span><br><span class="line">	<span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">ObjectCmp</span>&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val ==rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object,ObjectHash,ObjectCmp&gt; objects;</span><br></pre></td></tr></table></figure>
-<h4 id="定义两个普通函数重写hash和cmp"><a class="markdownIt-Anchor" href="#定义两个普通函数重写hash和cmp"></a> 定义两个普通函数，重写hash和cmp</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="type">size_t</span> <span class="title">ObjectHash</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ObjectCmp</span><span class="params">(<span class="type">const</span> Object&amp; lhs, <span class="type">const</span> Record&amp; rhs)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">unordered_set&lt;Object , <span class="title">decltype</span><span class="params">(&amp;ObjectHash)</span>, <span class="title">decltype</span><span class="params">(&amp;ObjectCmp)</span>&gt; <span class="title">objects</span><span class="params">(<span class="number">0</span>,ObjectHash,ObjectCmp)</span></span>;</span><br></pre></td></tr></table></figure>
-<h4 id="使用lambda函数"><a class="markdownIt-Anchor" href="#使用lambda函数"></a> 使用lambda函数</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> ObjectHash = [](<span class="type">const</span> Object&amp; rhs)&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">auto</span> ObjectCmp = [](<span class="type">const</span> Object&amp; lhs, <span class="type">const</span> Object&amp; rhs)&#123;</span><br><span class="line">    <span class="keyword">return</span> lhs.name==rhs.name &amp;&amp; lhs.val==rhs.val;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object, <span class="keyword">decltype</span>(&amp;ObjectHash),<span class="keyword">decltype</span>(&amp;ObjectCmp)&gt;<span class="built_in">object</span>(<span class="number">0</span>,ObjectHash,ObjectCmp);</span><br></pre></td></tr></table></figure>
-<h4 id="模板定制重写"><a class="markdownIt-Anchor" href="#模板定制重写"></a> 模板定制重写</h4>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//注意namespace ，必要时可以指定namespace std&#123;&#125;</span></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">hash</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">equal_to</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object&gt; objects;</span><br></pre></td></tr></table></figure>
-<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
-<p><a href="https://blog.csdn.net/lpstudy/article/details/54345050">https://blog.csdn.net/lpstudy/article/details/54345050</a></p>
-<p><a href="https://blog.csdn.net/y109y/article/details/82669620">https://blog.csdn.net/y109y/article/details/82669620</a></p>
+    <title>【每日】1984. 学生分数的最小差值</title>
+    <url>/posts/3e175728/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220211134306054.png" alt="image-20220211134306054" /></p>
+<blockquote>
+<p>思路：排序后使用滑动窗口的思想，取窗口内最大值和最小值，即i和i+k-1的差值，取最小。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">minimumDifference</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">1</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">sort</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>());</span><br><span class="line">        <span class="type">int</span> mi = INT_MAX;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i+k<span class="number">-1</span>&lt;nums.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            mi = <span class="built_in">min</span>(mi,nums[i+k<span class="number">-1</span>]-nums[i]);</span><br><span class="line">        </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> mi;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>cpp</category>
-        <category>cpp语法</category>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>模拟题</category>
       </categories>
       <tags>
-        <tag>cpp语法</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】688. 骑士在棋盘上的概率</title>
+    <url>/posts/2a64def3/</url>
+    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220217185416173.png" alt="image-20220217185416173" /></p>
+<blockquote>
+<p>思路：采用bfs策略一定会超时，因为步数&lt;=100，理论上可能的总数有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>8</mn><mn>100</mn></msup></mrow><annotation encoding="application/x-tex">8^{100}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">8</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">0</span><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span>次。因此采用三维dp[row][col][step]代表第step步时（row，col）处的概率。统计总数也可以，但是数字太大，若不模会溢出。</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">typedef</span> <span class="keyword">struct</span> <span class="title class_">node</span>&#123;</span><br><span class="line">        <span class="type">int</span> row,col,step;</span><br><span class="line">        <span class="built_in">node</span>(<span class="type">int</span> a,<span class="type">int</span> b,<span class="type">int</span> c)&#123;</span><br><span class="line">            <span class="keyword">this</span>-&gt;row = a;<span class="keyword">this</span>-&gt;col=b;<span class="keyword">this</span>-&gt;step=c;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;node;</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">8</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">bfs</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> column)</span></span>&#123;</span><br><span class="line">        <span class="comment">//tle k&gt;=10</span></span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">0</span>)<span class="keyword">return</span> <span class="number">1.0</span>;</span><br><span class="line">        queue&lt;node&gt;q; <span class="type">int</span> steps=<span class="number">0</span>; <span class="type">double</span> res = <span class="number">1.0</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="function">node <span class="title">tmp</span><span class="params">(row,column,<span class="number">0</span>)</span></span>;</span><br><span class="line">        q.<span class="built_in">push</span>(tmp);</span><br><span class="line">        <span class="keyword">while</span>(q.<span class="built_in">empty</span>()==<span class="literal">false</span>&amp;&amp;q.<span class="built_in">front</span>().step!=k)&#123;</span><br><span class="line">            <span class="keyword">auto</span> cur = q.<span class="built_in">front</span>();q.<span class="built_in">pop</span>();</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> i : dir)&#123;</span><br><span class="line">                <span class="type">int</span> nextrow = cur.row+i[<span class="number">0</span>];</span><br><span class="line">                <span class="type">int</span> nextcol =cur.col + i[<span class="number">1</span>];</span><br><span class="line">                <span class="keyword">if</span>(nextrow&lt;<span class="number">0</span> || nextcol&lt;<span class="number">0</span> || nextrow&gt;=n|| nextcol&gt;=n) <span class="keyword">continue</span>;</span><br><span class="line">                <span class="function">node <span class="title">tmp</span><span class="params">(nextrow,nextcol,cur.step+<span class="number">1</span>)</span></span>;</span><br><span class="line">                q.<span class="built_in">push</span>(tmp);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;q.<span class="built_in">size</span>()&lt;&lt;endl;</span><br><span class="line">        res = q.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;k;i++)res/=<span class="number">8.0</span>;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="type">double</span> f[<span class="number">26</span>][<span class="number">26</span>][<span class="number">200</span>];</span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">dp</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> col)</span></span>&#123;</span><br><span class="line">        <span class="built_in">fill</span>((<span class="type">int</span>*)f,(<span class="type">int</span>*)f+(<span class="number">26</span>*<span class="number">26</span>*<span class="number">200</span>),<span class="number">0.0</span>);<span class="type">int</span> step = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++) f[i][j][step]=<span class="number">1.0</span>;</span><br><span class="line">        <span class="keyword">while</span>(step!=k)&#123;</span><br><span class="line">            step++;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">0</span>;j&lt;n;j++)&#123;</span><br><span class="line">                    <span class="keyword">for</span>(<span class="keyword">auto</span> d:dir)&#123;</span><br><span class="line">                        <span class="type">int</span> prevrow = i+d[<span class="number">0</span>];</span><br><span class="line">                        <span class="type">int</span> prevcol = j+d[<span class="number">1</span>];</span><br><span class="line">                        <span class="keyword">if</span>(prevrow&lt;<span class="number">0</span> || prevcol&lt;<span class="number">0</span> || prevrow&gt;=n|| prevcol&gt;=n)<span class="keyword">continue</span>;</span><br><span class="line">                        f[i][j][step] +=f[prevrow][prevcol][step<span class="number">-1</span>]/<span class="number">8.0</span>;<span class="comment">//到达该位置的前一位置的所有概率和除以当前的选择概率。</span></span><br><span class="line">                    &#125; </span><br><span class="line">                &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> f[row][col][k];</span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">knightProbability</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> column)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//bfs(n,k,row,column);</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">dp</span>(n,k,row,column);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>dp</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【每日】2055.蜡烛之间的盘子</title>
+    <url>/posts/f2608f0/</url>
+    <content><![CDATA[<p><img data-src="C:%5CUsers%5C42273%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220308131742743.png" alt="image-20220308131742743" /></p>
+<blockquote>
+<p>思路一：使用二分查找的思想，记录蜡烛的位置存入cpos[]，然后对每次查询进行左二分和右二分，查找到&gt;=和&lt;=的pos位置 lpos和rpos，sum=cpos[rpos]-cpos[lpos]-(rpos-lpos)</p>
+<p>复杂度O(nlogn)</p>
+<p>注意特判边界条件和rpos&lt;=lpos的情况</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">lbs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp;a,<span class="type">int</span> pos)</span></span>&#123;</span><br><span class="line">        <span class="type">int</span> l = <span class="number">0</span>,r = a.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">            <span class="keyword">if</span>(a[mid]&gt;=pos)r = mid;<span class="keyword">else</span> l= mid+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> l;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">rbs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp;a,<span class="type">int</span> pos)</span></span>&#123;</span><br><span class="line">        <span class="type">int</span> l=<span class="number">0</span>,r=a.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(a[mid]&lt;=pos)l = mid;<span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> l;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">platesBetweenCandles</span><span class="params">(string s, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; queries)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;cpos; vector&lt;<span class="type">int</span>&gt;ans;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)<span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)cpos.<span class="built_in">emplace_back</span>(i);</span><br><span class="line">        <span class="keyword">if</span>(cpos.<span class="built_in">empty</span>())<span class="keyword">return</span> <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:queries)&#123;</span><br><span class="line">            <span class="type">int</span> lpos = <span class="built_in">lbs</span>(cpos,i[<span class="number">0</span>]),rpos = <span class="built_in">rbs</span>(cpos,i[<span class="number">1</span>]); </span><br><span class="line">            <span class="keyword">if</span>(cpos.<span class="built_in">front</span>()&gt;=cpos[rpos] || cpos.<span class="built_in">back</span>()&lt;=cpos[lpos] || rpos&lt;=lpos) ans.<span class="built_in">emplace_back</span>(<span class="number">0</span>);</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="type">int</span> cnt = cpos[rpos]-cpos[lpos] - (rpos - lpos);</span><br><span class="line">                ans.<span class="built_in">emplace_back</span>(cnt);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>思路二：前缀和思想，分别处理三个数组pre记录从0开始的*数量的前缀和。lpos记录&gt;=当前i位置的最小蜡烛位置，需要逆序，且最大值为数组长度-1。rpos记录&lt;=当前i位置的最大蜡烛位置，需要顺序，且最小值为0。</p>
+<p>对每个query，sum=pre[rpos[query[1]]]-pre[lpos[query[0]]]</p>
+<p>时间复杂度为O(n)</p>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">platesBetweenCandles</span><span class="params">(string s, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; queries)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;<span class="built_in">pre</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>),<span class="built_in">lpos</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>),<span class="built_in">rpos</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>); vector&lt;<span class="type">int</span>&gt;ans;<span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;*&#x27;</span>)sum++;</span><br><span class="line">            pre[i]=sum;  </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> rp=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)rp = i;</span><br><span class="line">            rpos[i]=rp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> lp=s.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=s.<span class="built_in">size</span>()<span class="number">-1</span>;i&gt;=<span class="number">0</span>;i--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)lp=i;</span><br><span class="line">            lpos[i]=lp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:queries)&#123;ans.<span class="built_in">emplace_back</span>(<span class="built_in">max</span>(<span class="number">0</span>,pre[rpos[i[<span class="number">1</span>]]]-pre[lpos[i[<span class="number">0</span>]]]));&#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>力扣</category>
+        <category>每日一题</category>
+        <category>前缀和</category>
+        <category>二分</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -385,6 +207,37 @@
       </categories>
       <tags>
         <tag>stl</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二叉树基础详解</title>
+    <url>/posts/99d9a14f/</url>
+    <content><![CDATA[<p>删除树中的节点时，删除过程将按照后序遍历的顺序进行。 也就是说，当你删除一个节点时，你将首先删除它的左节点和它的右边的节点，然后再删除节点本身。另外，后序在数学表达中被广泛使用。 编写程序来解析后缀表示法更为容易。</p>
+<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/mathematical_expression.png" alt="img" /></p>
+<p>可以使用中序遍历轻松找出原始表达式。 但是程序处理这个表达式时并不容易，因为你必须检查操作的优先级。</p>
+<p>如果你想对这棵树进行后序遍历，使用栈来处理表达式会变得更加容易。 每遇到一个操作符，就可以从栈中弹出栈顶的两个元素，计算并将结果返回到栈中。</p>
+<h2 id="遍历"><a class="markdownIt-Anchor" href="#遍历"></a> 遍历</h2>
+<h3 id="x序遍历"><a class="markdownIt-Anchor" href="#x序遍历"></a> X序遍历</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">preorder</span><span class="params">(TreeNode* cur,vector&lt;<span class="type">int</span>&gt;&amp; res)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    res.<span class="built_in">push_back</span>(cur-&gt;val); <span class="comment">//不同位置表示不同序的遍历</span></span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;left,res);</span><br><span class="line">    <span class="built_in">preorder</span>(cur-&gt;right,res);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="层次遍历"><a class="markdownIt-Anchor" href="#层次遍历"></a> 层次遍历</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">vector&lt;vector&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">levelOrder</span>(TreeNode* root) &#123;</span><br><span class="line">    vector&lt;TreeNode*&gt;q; vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;res; q.<span class="built_in">push_back</span>(root); <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(cnt&lt;q.<span class="built_in">size</span>())&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;tmp;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=cnt;i&lt;q.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(q[i]!=<span class="literal">nullptr</span>)tmp.<span class="built_in">push_back</span>(q[i]-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(tmp.<span class="built_in">size</span>())res.<span class="built_in">push_back</span>(tmp);</span><br><span class="line">        <span class="type">int</span> bound = q.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(cnt;cnt&lt;bound;cnt++)<span class="keyword">if</span>(q[cnt]!=<span class="literal">nullptr</span>)q.<span class="built_in">push_back</span>(q[cnt]-&gt;left),q.<span class="built_in">push_back</span>(q[cnt]-&gt;right);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="自顶向下"><a class="markdownIt-Anchor" href="#自顶向下"></a> 自顶向下</h3>
+<p>“自顶向下” 意味着在每个递归层级，我们将首先访问节点来计算一些值，并在递归调用函数时将这些值传递到子节点。 所以 “自顶向下” 的解决方案可以被认为是一种前序遍历。 具体来说，递归函数 top_down(root, params) 的原理是这样的：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">update the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- params</span></span><br><span class="line">left_ans = <span class="built_in">top_down</span>(root.left, left_params)		<span class="comment">// left_params &lt;-- root.val, params</span></span><br><span class="line">right_ans = <span class="built_in">top_down</span>(root.right, right_params)	<span class="comment">// right_params &lt;-- root.val, params</span></span><br><span class="line"><span class="keyword">return</span> the answer <span class="keyword">if</span> needed                      <span class="comment">// answer &lt;-- left_ans, right_ans</span></span><br></pre></td></tr></table></figure>
+<h3 id="自底向上"><a class="markdownIt-Anchor" href="#自底向上"></a> 自底向上</h3>
+<p>“自底向上” 是另一种递归方法。 在每个递归层次上，我们首先对所有子节点递归地调用函数，然后根据返回值和根节点本身的值得到答案。 这个过程可以看作是后序遍历的一种。 通常， “自底向上” 的递归函数 bottom_up(root) 为如下所示：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">return</span> specific value <span class="keyword">for</span> null node</span><br><span class="line">left_ans = <span class="built_in">bottom_up</span>(root.left)			<span class="comment">// call function recursively for left child</span></span><br><span class="line">right_ans = <span class="built_in">bottom_up</span>(root.right)		<span class="comment">// call function recursively for right child</span></span><br><span class="line"><span class="keyword">return</span> answers                           <span class="comment">// answer &lt;-- left_ans, right_ans, root.val</span></span><br></pre></td></tr></table></figure>
+<h4 id="求树的最大深度"><a class="markdownIt-Anchor" href="#求树的最大深度"></a> 求树的最大深度</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> answer=<span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">topDown</span><span class="params">(TreeNode* cur,<span class="type">int</span> level)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span>;</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;left,level+<span class="number">1</span>);</span><br><span class="line">    <span class="built_in">topDown</span>(cur-&gt;right,level+<span class="number">1</span>);</span><br><span class="line">    answer = <span class="built_in">max</span>(answer,level);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">bottomUp</span><span class="params">(TreeNode* cur)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(cur==<span class="literal">nullptr</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(<span class="built_in">bottomUp</span>(cur-&gt;left),<span class="built_in">bottomUp</span>(cur-&gt;right))+<span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+        <category>基础算法</category>
+        <category>二叉树</category>
+      </categories>
+      <tags>
+        <tag>基础算法</tag>
+        <tag>encryptalg</tag>
       </tags>
   </entry>
   <entry>
@@ -501,6 +354,31 @@
       </tags>
   </entry>
   <entry>
+    <title>decltype关键字</title>
+    <url>/posts/6d46b940/</url>
+    <content><![CDATA[<h3 id="decltype关键字"><a class="markdownIt-Anchor" href="#decltype关键字"></a> decltype关键字</h3>
+<p><mark>decltype</mark>被称作类型说明符，作用是选择并返回操作数的数据类型。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">// sum类型就是函数f返回的类型</span></span><br><span class="line"><span class="keyword">decltype</span>(<span class="built_in">f</span>()) sum = x;</span><br></pre></td></tr></table></figure>
+<p>解决难以拼写的类型名，有以下两个方案：</p>
+<ol>
+<li>使用类型别名技术</li>
+<li>使用auto和decltype</li>
+</ol>
+<h3 id="工作原理"><a class="markdownIt-Anchor" href="#工作原理"></a> 工作原理</h3>
+<p><mark>decltype</mark>不会计算表达式的值，编译器分析表达式并得到它的类型。</p>
+<p>函数调用也算一种表达式，因此不必担心在使用deltype时执行了函数。</p>
+<h3 id="decltype变量"><a class="markdownIt-Anchor" href="#decltype变量"></a> decltype+变量</h3>
+<p>根据表达式的定义，单独使用一个变量，相当于一个最简单的表达式。</p>
+]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp语法</category>
+      </categories>
+      <tags>
+        <tag>cpp语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>离散化</title>
     <url>/posts/515818b4/</url>
     <content><![CDATA[<h3 id="acwing802-区间和"><a class="markdownIt-Anchor" href="#acwing802-区间和"></a> Acwing802 区间和</h3>
@@ -516,88 +394,210 @@
       </tags>
   </entry>
   <entry>
-    <title>【每日】1020. 飞地的数量</title>
-    <url>/posts/48f31485/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220212141050874.png" alt="image-20220212141050874" /></p>
-<blockquote>
-<p>采用多源dfs的思想，每个通往边界的区域经过dfs后设为0，最后统计1的数量即可，只需要扫描边界处的连通分量即可。</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">4</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">0</span>&#125;,&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">0</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="type">int</span> m,n;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(grid[x][y]==<span class="number">0</span>)<span class="keyword">return</span>;</span><br><span class="line">        grid[x][y]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:dir)&#123;</span><br><span class="line">            <span class="type">int</span> nextx = x+i[<span class="number">0</span>],nexty = y+i[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(nextx&gt;=<span class="number">0</span> &amp;&amp; nexty&gt;=<span class="number">0</span> &amp;&amp; nextx&lt;m &amp;&amp; nexty &lt;n &amp;&amp;grid[nextx][nexty])<span class="built_in">dfs</span>(nextx,nexty,grid);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">numEnclaves</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>&#123;</span><br><span class="line">        m = grid.<span class="built_in">size</span>(); n = grid[<span class="number">0</span>].<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++)&#123;<span class="built_in">dfs</span>(<span class="number">0</span>,j,grid);<span class="built_in">dfs</span>(m<span class="number">-1</span>,j,grid);&#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;<span class="built_in">dfs</span>(i,<span class="number">0</span>,grid);<span class="built_in">dfs</span>(i,n<span class="number">-1</span>,grid);&#125;</span><br><span class="line">        <span class="type">int</span> cnt=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:grid)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> j:i)<span class="keyword">if</span>(j)cnt++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
+    <title>cpp博客汇总</title>
+    <url>/posts/26f80d45/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="48d4c2071a98261b91bf0f24d970df9a5ee3e1bc9449d012e30537c624463818">8c5eb7d299eb8204d1aa11d5321f1970e0702a4fa338dd1cc8a5f32ab3a638a5dfe317204ae956e092fc50bb1621e8ea08b755118da87b6340cee979b850f15388d6b14e6dbb75303be94c0ae2e6ad26eb3a75cba0265537fed2ef182633562904235b0284ffd7da53a6cf40d6b9c9fdc57a1e72ccf74d82d900b007763c0fa11de3777c888133a80ebcf422c34dfceae367d70f6a29a85a916cf04b3ed2f82eeb30bbe9fa60970f3db4e55dcb8b5662</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-blink">
+      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>dfs</category>
+        <category>cpp</category>
+        <category>cpp资源</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>cpp资源</tag>
       </tags>
   </entry>
   <entry>
-    <title>【每日】2055.蜡烛之间的盘子</title>
-    <url>/posts/f2608f0/</url>
-    <content><![CDATA[<p><img data-src="C:%5CUsers%5C42273%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220308131742743.png" alt="image-20220308131742743" /></p>
-<blockquote>
-<p>思路一：使用二分查找的思想，记录蜡烛的位置存入cpos[]，然后对每次查询进行左二分和右二分，查找到&gt;=和&lt;=的pos位置 lpos和rpos，sum=cpos[rpos]-cpos[lpos]-(rpos-lpos)</p>
-<p>复杂度O(nlogn)</p>
-<p>注意特判边界条件和rpos&lt;=lpos的情况</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">lbs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp;a,<span class="type">int</span> pos)</span></span>&#123;</span><br><span class="line">        <span class="type">int</span> l = <span class="number">0</span>,r = a.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>);</span><br><span class="line">            <span class="keyword">if</span>(a[mid]&gt;=pos)r = mid;<span class="keyword">else</span> l= mid+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> l;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">rbs</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp;a,<span class="type">int</span> pos)</span></span>&#123;</span><br><span class="line">        <span class="type">int</span> l=<span class="number">0</span>,r=a.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">while</span>(l&lt;r)&#123;</span><br><span class="line">            <span class="type">int</span> mid = l+(r-l&gt;&gt;<span class="number">1</span>)+<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(a[mid]&lt;=pos)l = mid;<span class="keyword">else</span> r = mid<span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> l;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">platesBetweenCandles</span><span class="params">(string s, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; queries)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;cpos; vector&lt;<span class="type">int</span>&gt;ans;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)<span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)cpos.<span class="built_in">emplace_back</span>(i);</span><br><span class="line">        <span class="keyword">if</span>(cpos.<span class="built_in">empty</span>())<span class="keyword">return</span> <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:queries)&#123;</span><br><span class="line">            <span class="type">int</span> lpos = <span class="built_in">lbs</span>(cpos,i[<span class="number">0</span>]),rpos = <span class="built_in">rbs</span>(cpos,i[<span class="number">1</span>]); </span><br><span class="line">            <span class="keyword">if</span>(cpos.<span class="built_in">front</span>()&gt;=cpos[rpos] || cpos.<span class="built_in">back</span>()&lt;=cpos[lpos] || rpos&lt;=lpos) ans.<span class="built_in">emplace_back</span>(<span class="number">0</span>);</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="type">int</span> cnt = cpos[rpos]-cpos[lpos] - (rpos - lpos);</span><br><span class="line">                ans.<span class="built_in">emplace_back</span>(cnt);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>思路二：前缀和思想，分别处理三个数组pre记录从0开始的*数量的前缀和。lpos记录&gt;=当前i位置的最小蜡烛位置，需要逆序，且最大值为数组长度-1。rpos记录&lt;=当前i位置的最大蜡烛位置，需要顺序，且最小值为0。</p>
-<p>对每个query，sum=pre[rpos[query[1]]]-pre[lpos[query[0]]]</p>
-<p>时间复杂度为O(n)</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">platesBetweenCandles</span><span class="params">(string s, vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; queries)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt;<span class="built_in">pre</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>),<span class="built_in">lpos</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>),<span class="built_in">rpos</span>(s.<span class="built_in">size</span>(),<span class="number">0</span>); vector&lt;<span class="type">int</span>&gt;ans;<span class="type">int</span> sum=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;*&#x27;</span>)sum++;</span><br><span class="line">            pre[i]=sum;  </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> rp=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)rp = i;</span><br><span class="line">            rpos[i]=rp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">int</span> lp=s.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=s.<span class="built_in">size</span>()<span class="number">-1</span>;i&gt;=<span class="number">0</span>;i--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="string">&#x27;|&#x27;</span>)lp=i;</span><br><span class="line">            lpos[i]=lp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:queries)&#123;ans.<span class="built_in">emplace_back</span>(<span class="built_in">max</span>(<span class="number">0</span>,pre[rpos[i[<span class="number">1</span>]]]-pre[lpos[i[<span class="number">0</span>]]]));&#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+    <title>Lambda表达式</title>
+    <url>/posts/e9ee750c/</url>
+    <content><![CDATA[<h3 id="声明lambda表达式"><a class="markdownIt-Anchor" href="#声明lambda表达式"></a> 声明Lambda表达式</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list) <span class="keyword">mutable</span> exception-&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>capture list： 捕获外部变量的列表</li>
+<li>params list：形参列表</li>
+<li>mutable指示符：是否可以修改捕获的变量</li>
+<li>exception：异常设定</li>
+<li>return type：返回类型</li>
+<li>function body：函数体</li>
+</ol>
+<h4 id="格式1"><a class="markdownIt-Anchor" href="#格式1"></a> 格式1</h4>
+<p>声明了const类型的表达式，函数中不能修改捕获列表中的值（引用传递除外）</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list) -&gt; <span class="keyword">return</span> type &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="格式2"><a class="markdownIt-Anchor" href="#格式2"></a> 格式2</h4>
+<p>省略了返回值的类型，编译器自动推断，若：</p>
+<ol>
+<li>
+<p>含有return，则类型由return决定</p>
+</li>
+<li>
+<p>不含有return，类型为void</p>
+</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] (params list)  &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="格式3"><a class="markdownIt-Anchor" href="#格式3"></a> 格式3</h4>
+<p>无参数函数</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">[capture list] &#123; function body &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="捕获外部变量"><a class="markdownIt-Anchor" href="#捕获外部变量"></a> 捕获外部变量</h3>
+<table>
+<thead>
+<tr>
+<th>捕获形式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[]</td>
+<td>不捕获任何外部变量</td>
+</tr>
+<tr>
+<td>[变量名…]</td>
+<td>默认以值形式捕获多个指定外部变量，如果引用捕获，需要显式声明<code>&amp;</code>说明符</td>
+</tr>
+<tr>
+<td>[this]</td>
+<td>值形式捕获this指针</td>
+</tr>
+<tr>
+<td>[=]</td>
+<td>值形式捕获外部所有变量</td>
+</tr>
+<tr>
+<td>[&amp;]</td>
+<td>引用方式捕获外部所有变量</td>
+</tr>
+<tr>
+<td>[=,&amp;x]</td>
+<td>变量x用引用方式捕获，其余变量以传值形式捕获</td>
+</tr>
+<tr>
+<td>[&amp;,x]</td>
+<td>变量x以传值方式捕获，其余变量以引用形式捕获</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lambda表达式的参数"><a class="markdownIt-Anchor" href="#lambda表达式的参数"></a> Lambda表达式的参数</h3>
+<ol>
+<li>参数列表中不能用默认参数</li>
+<li>不支持可变长度的参数</li>
+<li>所有参数必须有参数名</li>
+</ol>
+<h3 id="lambda表达式的类型"><a class="markdownIt-Anchor" href="#lambda表达式的类型"></a> Lambda表达式的类型</h3>
+<p>Lambda 函数是一个依赖于实现的函数对象类型,这个类型的名字只有编译器知道. 如果用户想把 lambda 函数做为一个参数来传递, 那么形参的类型必须是模板类型或者必须能创建一个 <mark>std::function</mark> 类似的对象去捕获 lambda 函数.使用 auto 关键字可以帮助存储 Lambda 函数。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> my_lambda_func = [&amp;](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="keyword">auto</span> my_onheap_lambda_func = <span class="keyword">new</span> <span class="built_in">auto</span>([=](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">double</span> <span class="title">eval</span><span class="params">(std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f,<span class="type">double</span> x=<span class="number">2.0</span>)</span></span>&#123;<span class="keyword">return</span> <span class="built_in">f</span>(x);&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; f0 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> <span class="number">1</span>;&#125;;</span><br><span class="line">    <span class="keyword">auto</span> f1 = [](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x;&#125;;</span><br><span class="line">    <span class="keyword">decltype</span>(f0) fa[<span class="number">3</span>]=&#123;f0,f1,[](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;&#125;;</span><br><span class="line">    std::vector&lt;std::function&lt;<span class="type">double</span>(<span class="type">double</span>)&gt; &gt; fv = &#123;f0,f1&#125;;</span><br><span class="line">    fv.<span class="built_in">push_back</span>([](<span class="type">double</span> x)&#123;<span class="keyword">return</span> x*x;&#125;);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;fv.<span class="built_in">size</span>();i++) std::cout&lt;&lt;fv[i](<span class="number">2.0</span>)&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>一个没有指定任何捕获的 lambda 函数,可以显式转换成一个具有相同声明形式函数指针.所以,像下面这样做是合法的:</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> a_lambda_func = [](<span class="type">int</span> x) &#123; <span class="comment">/* ... */</span> &#125;;</span><br><span class="line"><span class="built_in">void</span> (*func_ptr)(<span class="type">int</span>) = a_lambda_func;</span><br><span class="line"><span class="built_in">func_ptr</span>(<span class="number">4</span>); <span class="comment">// calls the lambda</span></span><br></pre></td></tr></table></figure>
+<p>但是<mark>带捕获的lambda是不能够作为函数指针进行参数传递</mark>。</p>
+<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
+<p><a href="https://www.cnblogs.com/DswCnblog/p/5629165.html">https://www.cnblogs.com/DswCnblog/p/5629165.html</a></p>
+<p><a href="https://www.cnblogs.com/jimodetiantang/p/9016826.html">https://www.cnblogs.com/jimodetiantang/p/9016826.html</a></p>
+<p>关于捕获和不捕获的lambda转换汇编代码分析</p>
+<p><a href="https://blog.csdn.net/qq_36419971/article/details/117396419">https://blog.csdn.net/qq_36419971/article/details/117396419</a></p>
 ]]></content>
       <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>前缀和</category>
-        <category>二分</category>
+        <category>cpp</category>
+        <category>cpp语法</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>cpp语法</tag>
       </tags>
   </entry>
   <entry>
-    <title>【每日】1984. 学生分数的最小差值</title>
-    <url>/posts/3e175728/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220211134306054.png" alt="image-20220211134306054" /></p>
-<blockquote>
-<p>思路：排序后使用滑动窗口的思想，取窗口内最大值和最小值，即i和i+k-1的差值，取最小。</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">minimumDifference</span><span class="params">(vector&lt;<span class="type">int</span>&gt;&amp; nums, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">1</span>)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">sort</span>(nums.<span class="built_in">begin</span>(),nums.<span class="built_in">end</span>());</span><br><span class="line">        <span class="type">int</span> mi = INT_MAX;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i+k<span class="number">-1</span>&lt;nums.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">            mi = <span class="built_in">min</span>(mi,nums[i+k<span class="number">-1</span>]-nums[i]);</span><br><span class="line">        </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> mi;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+    <title>unordered_map set自定义对象的hash</title>
+    <url>/posts/f17b9616/</url>
+    <content><![CDATA[<p><code>unordered_map/set</code>使用hash进行存储，因此存储自定义对象前，必须：</p>
+<ol>
+<li><code>hash</code>告知此容器如何生成hash值，</li>
+<li><code>equal_to</code>告知容器当出现hash冲突时，如何区分hash值相同的不同对象。</li>
+</ol>
+<p><strong>具体有4种方案</strong>：</p>
+<ol>
+<li>定义两个函数对象ObjectHash，以及ObjectCmp，分别实现对Object进行hash，以及比较两个对象是否相同。</li>
+<li>定义两个普通的函数，实现hash以及对象比较，与<mark>1</mark>不同的是普通函数在构建<code>unordered_map/set</code>时，需要decltype来减少声明它的类型（或手动指定，<code>std::function &lt;size_t(const Object&amp;)&gt;</code>说明hash类型，<code>std::function &lt;bool(const Object&amp;, const Object&amp;)&gt;</code>说明比较cmp类型</li>
+<li>定义两个lambda表达式（仿函数），与2类似</li>
+<li>对Object对象进行模板特化定制</li>
+</ol>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"># unordered_set的声明</span><br><span class="line"><span class="keyword">template</span>&lt;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Key</span>, <span class="comment">//类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Hash</span> = std::hash&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> KeyEqual = std::equal_to&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Allocator = std::allocator&lt;Key&gt;</span><br><span class="line">&gt; <span class="keyword">class</span> unordered_set;</span><br><span class="line"></span><br><span class="line">#unordered_map的声明</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">Key</span>, <span class="comment">//key的类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Ty</span>, <span class="comment">//val的类型</span></span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">Hash</span> = std::hash&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Pred = std::equal_to&lt;Key&gt;,</span><br><span class="line">    <span class="keyword">class</span> Alloc = std::allocator&lt;std::pair&lt;<span class="type">const</span> Key, Ty&gt; &gt; &gt;</span><br><span class="line">    <span class="keyword">class</span> unordered_map;</span><br><span class="line">&gt; <span class="keyword">class</span> <span class="title class_">unordered_map</span></span><br></pre></td></tr></table></figure>
+<h3 id="示例"><a class="markdownIt-Anchor" href="#示例"></a> 示例</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"># 自定义<span class="keyword">struct</span>的类型</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Object</span>&#123;</span><br><span class="line">    string name;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h4 id="定义两个函数对象"><a class="markdownIt-Anchor" href="#定义两个函数对象"></a> 定义两个函数对象</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">ObjectHash</span>&#123;</span><br><span class="line">	<span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">ObjectCmp</span>&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val ==rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object,ObjectHash,ObjectCmp&gt; objects;</span><br></pre></td></tr></table></figure>
+<h4 id="定义两个普通函数重写hash和cmp"><a class="markdownIt-Anchor" href="#定义两个普通函数重写hash和cmp"></a> 定义两个普通函数，重写hash和cmp</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="type">size_t</span> <span class="title">ObjectHash</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">ObjectCmp</span><span class="params">(<span class="type">const</span> Object&amp; lhs, <span class="type">const</span> Record&amp; rhs)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">unordered_set&lt;Object , <span class="title">decltype</span><span class="params">(&amp;ObjectHash)</span>, <span class="title">decltype</span><span class="params">(&amp;ObjectCmp)</span>&gt; <span class="title">objects</span><span class="params">(<span class="number">0</span>,ObjectHash,ObjectCmp)</span></span>;</span><br></pre></td></tr></table></figure>
+<h4 id="使用lambda函数"><a class="markdownIt-Anchor" href="#使用lambda函数"></a> 使用lambda函数</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">auto</span> ObjectHash = [](<span class="type">const</span> Object&amp; rhs)&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">auto</span> ObjectCmp = [](<span class="type">const</span> Object&amp; lhs, <span class="type">const</span> Object&amp; rhs)&#123;</span><br><span class="line">    <span class="keyword">return</span> lhs.name==rhs.name &amp;&amp; lhs.val==rhs.val;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object, <span class="keyword">decltype</span>(&amp;ObjectHash),<span class="keyword">decltype</span>(&amp;ObjectCmp)&gt;<span class="built_in">object</span>(<span class="number">0</span>,ObjectHash,ObjectCmp);</span><br></pre></td></tr></table></figure>
+<h4 id="模板定制重写"><a class="markdownIt-Anchor" href="#模板定制重写"></a> 模板定制重写</h4>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//注意namespace ，必要时可以指定namespace std&#123;&#125;</span></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">hash</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">size_t</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">hash</span>&lt;string&gt;()(rhs.name) ^ <span class="built_in">hash</span>&lt;<span class="type">int</span>&gt;()(rhs.val);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">equal_to</span>&lt;Object&gt;&#123;</span><br><span class="line">    <span class="function"><span class="type">bool</span> <span class="title">operator</span><span class="params">()</span><span class="params">(<span class="type">const</span> Object&amp; lhs,<span class="type">const</span> Object&amp; rhs)</span><span class="type">const</span></span>&#123;</span><br><span class="line">		<span class="keyword">return</span> lhs.name == rhs.name &amp;&amp; lhs.val == rhs.val;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">unordered_set&lt;Object&gt; objects;</span><br></pre></td></tr></table></figure>
+<h3 id="参考资料"><a class="markdownIt-Anchor" href="#参考资料"></a> 参考资料</h3>
+<p><a href="https://blog.csdn.net/lpstudy/article/details/54345050">https://blog.csdn.net/lpstudy/article/details/54345050</a></p>
+<p><a href="https://blog.csdn.net/y109y/article/details/82669620">https://blog.csdn.net/y109y/article/details/82669620</a></p>
 ]]></content>
       <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>模拟题</category>
+        <category>cpp</category>
+        <category>cpp语法</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>cpp语法</tag>
       </tags>
   </entry>
   <entry>
-    <title>【每日】688. 骑士在棋盘上的概率</title>
-    <url>/posts/2a64def3/</url>
-    <content><![CDATA[<p><img data-src="http://hz-picbed-xxh.oss-cn-hangzhou.aliyuncs.com/img-bed/image-20220217185416173.png" alt="image-20220217185416173" /></p>
+    <title>cpp中的const</title>
+    <url>/posts/4bf79020/</url>
+    <content><![CDATA[<h2 id="cpp中的const更像是编译阶段的define"><a class="markdownIt-Anchor" href="#cpp中的const更像是编译阶段的define"></a> cpp中的<code>const</code>更像是编译阶段的<code>#define</code></h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> m = <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> n = m;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>思路：采用bfs策略一定会超时，因为步数&lt;=100，理论上可能的总数有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>8</mn><mn>100</mn></msup></mrow><annotation encoding="application/x-tex">8^{100}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">8</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">0</span><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span>次。因此采用三维dp[row][col][step]代表第step步时（row，col）处的概率。统计总数也可以，但是数字太大，若不模会溢出。</p>
+<p>在C语言中，编译器会先在m的内存中取出数据赋值给n；</p>
+<p>在cpp中，编译器直接将10赋值给n，没有读取内存的操作。</p>
 </blockquote>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">typedef</span> <span class="keyword">struct</span> <span class="title class_">node</span>&#123;</span><br><span class="line">        <span class="type">int</span> row,col,step;</span><br><span class="line">        <span class="built_in">node</span>(<span class="type">int</span> a,<span class="type">int</span> b,<span class="type">int</span> c)&#123;</span><br><span class="line">            <span class="keyword">this</span>-&gt;row = a;<span class="keyword">this</span>-&gt;col=b;<span class="keyword">this</span>-&gt;step=c;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;node;</span><br><span class="line">    <span class="type">int</span> dir[<span class="number">8</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">-1</span>&#125;&#125;;</span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">bfs</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> column)</span></span>&#123;</span><br><span class="line">        <span class="comment">//tle k&gt;=10</span></span><br><span class="line">        <span class="keyword">if</span>(k==<span class="number">0</span>)<span class="keyword">return</span> <span class="number">1.0</span>;</span><br><span class="line">        queue&lt;node&gt;q; <span class="type">int</span> steps=<span class="number">0</span>; <span class="type">double</span> res = <span class="number">1.0</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="function">node <span class="title">tmp</span><span class="params">(row,column,<span class="number">0</span>)</span></span>;</span><br><span class="line">        q.<span class="built_in">push</span>(tmp);</span><br><span class="line">        <span class="keyword">while</span>(q.<span class="built_in">empty</span>()==<span class="literal">false</span>&amp;&amp;q.<span class="built_in">front</span>().step!=k)&#123;</span><br><span class="line">            <span class="keyword">auto</span> cur = q.<span class="built_in">front</span>();q.<span class="built_in">pop</span>();</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">auto</span> i : dir)&#123;</span><br><span class="line">                <span class="type">int</span> nextrow = cur.row+i[<span class="number">0</span>];</span><br><span class="line">                <span class="type">int</span> nextcol =cur.col + i[<span class="number">1</span>];</span><br><span class="line">                <span class="keyword">if</span>(nextrow&lt;<span class="number">0</span> || nextcol&lt;<span class="number">0</span> || nextrow&gt;=n|| nextcol&gt;=n) <span class="keyword">continue</span>;</span><br><span class="line">                <span class="function">node <span class="title">tmp</span><span class="params">(nextrow,nextcol,cur.step+<span class="number">1</span>)</span></span>;</span><br><span class="line">                q.<span class="built_in">push</span>(tmp);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;q.<span class="built_in">size</span>()&lt;&lt;endl;</span><br><span class="line">        res = q.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;k;i++)res/=<span class="number">8.0</span>;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="type">double</span> f[<span class="number">26</span>][<span class="number">26</span>][<span class="number">200</span>];</span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">dp</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> col)</span></span>&#123;</span><br><span class="line">        <span class="built_in">fill</span>((<span class="type">int</span>*)f,(<span class="type">int</span>*)f+(<span class="number">26</span>*<span class="number">26</span>*<span class="number">200</span>),<span class="number">0.0</span>);<span class="type">int</span> step = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;n;j++) f[i][j][step]=<span class="number">1.0</span>;</span><br><span class="line">        <span class="keyword">while</span>(step!=k)&#123;</span><br><span class="line">            step++;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">0</span>;j&lt;n;j++)&#123;</span><br><span class="line">                    <span class="keyword">for</span>(<span class="keyword">auto</span> d:dir)&#123;</span><br><span class="line">                        <span class="type">int</span> prevrow = i+d[<span class="number">0</span>];</span><br><span class="line">                        <span class="type">int</span> prevcol = j+d[<span class="number">1</span>];</span><br><span class="line">                        <span class="keyword">if</span>(prevrow&lt;<span class="number">0</span> || prevcol&lt;<span class="number">0</span> || prevrow&gt;=n|| prevcol&gt;=n)<span class="keyword">continue</span>;</span><br><span class="line">                        f[i][j][step] +=f[prevrow][prevcol][step<span class="number">-1</span>]/<span class="number">8.0</span>;<span class="comment">//到达该位置的前一位置的所有概率和除以当前的选择概率。</span></span><br><span class="line">                    &#125; </span><br><span class="line">                &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> f[row][col][k];</span><br><span class="line">    &#125;   </span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">knightProbability</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> k, <span class="type">int</span> row, <span class="type">int</span> column)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//bfs(n,k,row,column);</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">dp</span>(n,k,row,column);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p><code>#define</code>是在预处理阶段替换，常量是在编译阶段替换。提高了程序执行的效率，缺点是不能反映内存变化。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">const</span> <span class="type">int</span> n =<span class="number">10</span>;</span><br><span class="line"><span class="type">int</span>* p = (<span class="type">int</span>*)&amp;n;</span><br><span class="line">(*p) = <span class="number">100</span>;</span><br><span class="line">cout&lt;&lt;n&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;(*p)&lt;&lt;endl;</span><br><span class="line"><span class="comment">//输出为10 100</span></span><br></pre></td></tr></table></figure>
+<p>将代码放到<code>.c</code>文件中，以C语言的方式编译，运行结果为<code>99</code>。再将代码放到<code>.cpp</code>文件中，以C<ins>的方式编译，运行结果就变成了<code>10</code>。这种差异正是由于C和C</ins>对 const 的处理方式不同造成的。</p>
+<h2 id="cpp中全局const变量可见范围是当前文件"><a class="markdownIt-Anchor" href="#cpp中全局const变量可见范围是当前文件"></a> cpp中全局const变量可见范围是当前文件</h2>
+<p>c语言中：<mark>全局变量的作用域是当前文件，但是在其他文件中也是可见的，使用<code>extern</code>声明后就可以使用</mark></p>
+<p>cpp语言中：<mark>const变量的作用域是当前文件，在其他文件中不可见</mark></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//const int n = 10;</span></span><br><span class="line"><span class="comment">//int n = 10;</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">func</span><span class="params">()</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    func();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main: %d\n&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">extern</span> <span class="type">int</span> n; </span><br><span class="line"><span class="type">void</span> <span class="title function_">func</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;module: %d\n&quot;</span>, n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>若为<code>int n=10;</code>无论cpp还是c语言均编译通过</p>
+<p>若为<code>const int n=10;</code>，cpp编译失败（因为对其他文件不可见），c语言编译通过。</p>
+</blockquote>
+<h3 id="将const变量放入头文件中"><a class="markdownIt-Anchor" href="#将const变量放入头文件中"></a> 将const变量放入头文件中</h3>
+<p><mark>由于 C++ 中全局 const 变量的可见范围仅限于当前源文件，所以可以将它放在头文件中，这样即使头文件被包含多次也不会出错</mark></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//module.h</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">func</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//module.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;module.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">func</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;module: %d\n&quot;</span>, n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//main.cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;module.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">func</span>();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main: %d\n&quot;</span>, n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">$ </span><span class="language-bash">g++ main.cpp module.cpp -o main &amp;&amp; main</span></span><br><span class="line"></span><br><span class="line">module: 10</span><br><span class="line">main: 10</span><br></pre></td></tr></table></figure>
+<p>C和C<ins>中全局 const 变量的作用域相同，都是当前文件，不同的是它们的可见范围：C语言中 const 全局变量的可见范围是整个程序，在其他文件中使用 extern 声明后就可以使用；而C</ins>中 const 全局变量的可见范围仅限于当前文件，在其他文件中不可见，所以它可以定义在头文件中，多次引入后也不会出错。</p>
 ]]></content>
       <categories>
-        <category>算法</category>
-        <category>力扣</category>
-        <category>每日一题</category>
-        <category>dp</category>
+        <category>cpp</category>
+        <category>cpp语法</category>
       </categories>
       <tags>
-        <tag>算法</tag>
+        <tag>cpp语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cpp中指定默认参数的位置</title>
+    <url>/posts/27cf2ee3/</url>
+    <content><![CDATA[<p>wu</p>
+]]></content>
+      <categories>
+        <category>cpp</category>
+        <category>cpp语法</category>
+      </categories>
+      <tags>
+        <tag>cpp语法</tag>
       </tags>
   </entry>
   <entry>
